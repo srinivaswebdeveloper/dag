@@ -1,0 +1,133 @@
+/************************************************** CLEAR style Starts ***************************************************/
+.auctionTimer:before, .auctionTimer:after , .listContent:before , .listContent:after , .listFilterTle:before , .listFilterTle:after , .listRtTle:before , .listRtTle:after , .listItemListing:before , .listItemListing:after , .lotListing:before , .lotListing:after ,.lotLinkTop:before , .lotLinkTop:after , .tabLinks:before , .tabLinks:after , .bannerTextBox:before, bannerTextBox:after , .lotLinksLtBox:after , .lotLinksLtBox:before  , .lotDetail:after , .lotDetail:before { clear:both; content:""; display:table; }
+/************************************************** CLEAR style Ends ***************************************************/
+
+.auctionTimer { text-align:center; color:#333333; font-size:18px; line-height:22px; font-family: 'catamaranregular'; font-style:normal; font-weight:normal;  padding:0 0 35px 0;  }
+.auctionTxt { display:inline-block; background:url(../images/spriteIcons.png) -1px -635px no-repeat; padding-left:30px; }
+/* jQuery Countdown styles 2.0.0. STARTS */
+.is-countdown { /*border: 1px solid #ccc;background-color: #eee;*/ display:inline-block; width:37%; }
+.countdown-holding span {color:#888;}
+.countdown-show4 .countdown-section {width: 24.5%;}
+.countdown-section { display:inline-block; text-align:center; }
+.countdown-amount { color:#333333; font-size:18px; line-height:22px; font-family: 'catamaranregular'; font-style:normal; font-weight:normal;  padding-right:5px; }
+.countdown-period { display:inline-block; color:#333333; font-size:18px; line-height:22px; font-family: 'catamaranregular'; font-style:normal; font-weight:normal;  }
+.countdown-descr {display:inline-block;  }
+/* jQuery Countdown styles 2.0.0. ENDS */
+
+
+.lotImg img , .thumbnails li img  { max-width: 100%; width: 100%;} 
+
+.bannerTextBox { border-bottom:0px; }
+
+.listContent { padding:30px 0 65px 0; border-top:1px solid #333333; }
+.leftFilter  { padding:0px; }
+.listFilterTle { font-family: 'loraregular'; font-size:16px; line-height:18px; padding-top:10px; padding-bottom:12px; border-bottom:1px solid #999999; }
+
+.filterList { list-style:none; padding:0px; margin:0px;  }
+.filterList li { display:block; padding:20px 0 0 0; }
+.filterList li h3 { color:#282224; font-size:16px; line-height:18px; font-style:normal; font-weight:normal; font-family: 'loraregular'; padding-bottom:14px; }
+.filterList .select-style { width:100%; }
+
+.listItemContent {  padding:0px; }
+ 
+.listRtTle .titleSort { padding-right:3%; border-right:1px solid #333333; float:left; margin-top:10px; font-family: 'loraregular';  font-size:16px; line-height:18px; }
+.artistNameSel , .artistPriceSel { color:#282224; font-size:16px; line-height:18px; font-weight:normal; font-style:normal; display:block; float:left; padding:0 2% 0 3%; }
+.artistNameSel span , .artistPriceSel span { padding-right:10px; float:left; padding-top:8px; font-family: 'loraregular'; font-size:14px; } 
+
+.listItemListing { padding:22px 0 0 0; }
+.lotListing { border:1px solid #e1e1e1; padding:1.5%; margin-bottom:8px; position:relative; }
+
+.LotSliderList { width:100%; }
+.LotSliderList li { list-style:none; width:100%; display:block; }
+ 
+
+/**/
+
+ul.thumbnails { width:30.673%; }
+.thumbnails li { list-style:none; float:left; margin:0 3px;  width:85px; height:85px; float:left; background:#ebebeb; text-align:center; }
+.thumbnails li img { margin-bottom:3px; width:85px; height:83px; }
+.thumbnails .slick-prev , .thumbnails .slick-next { width:29px; height:97px; border:none; text-indent:-9999px; position:absolute; top:0; border:none; background:#ccc; display:none !important; }
+.thumbnails .slick-prev  { background:url(../images/spriteIcons.png) -2px -1461px no-repeat; left:-2px; z-index:1; }
+.thumbnails .slick-next  { background:url(../images/spriteIcons.png) -2px -1371px no-repeat; right:-2px; }
+.thumbnails:hover .slick-prev , .thumbnails:hover .slick-next { display:block !important; }
+
+.thumbnails .slick-current { background-image:url(../images/listpage/yellowBorder.gif); background-position:bottom left; background-repeat:repeat-x; position:relative; z-index:3;  }
+.thumbnails .slick-current img {  }
+
+.artnumber { font-size:14px; line-height:14px; font-family: 'crimson_textroman'; font-weight:normal; font-style:normal; padding-bottom:16px; }
+ 
+.lotImg , .lotDetail , .lotLinks { float:left; }
+.lotImg { width:30.673%; margin-right:2.1153%; margin-bottom:4px; }
+.lotDetail , .lotLinks { width:67%; vertical-align:top; }
+.lotDetail { padding-bottom:20px; }
+
+.lotDetailDescri { float:left; }
+.lotDetailDescri h4 { color:#999999; font-size:12px; line-height:14px; font-family: 'loraregular'; font-style:normal; font-weight:normal; padding-bottom:15px; }
+.lotDetailDescri p.artistName { color:#333333; font-size:18px; line-height:16px; font-family: 'loraregular'; font-style:normal; font-weight:normal;  padding-bottom:10px; }
+.lotDetailDescri p.artTitle { color:#333333; font-size:14px; line-height:16px;  font-family: 'loraregular'; font-style:normal; font-weight:normal;  padding-bottom:4px; }
+.lotDetailDescri p.artDesci { color:#333333; font-size:14px; line-height:19px;  font-family: 'loraregular'; font-style:normal; font-weight:normal;  padding-bottom:4px; }
+.lotDetailDescri p.artFrame { color:#333333; font-size:14px; line-height:16px;  font-family: 'loraregular'; font-style:normal; font-weight:normal;  padding-bottom:2px; }
+
+.lotLinkTop { padding-bottom:19px; }
+.lotLinks {  border-top:1px solid #e1e1e1; padding-top:20px; }
+.bidCall { width:75%; float:left;  }
+
+.lotLinksLtBox { float:left; margin-bottom:15px; text-align:left; width:100%; }
+.lotLinksRtBox { float:right; }
+.lotLinkLt { float:left; }
+.lotBtnRt { float:right;width:40%;  }
+.bidLink { color:#999999; font-size: 12px; line-height: 24px; padding-left: 34px; background:url(../images/spriteIcons.png) 11px -702px no-repeat; text-decoration:none; text-align:left; display:block; padding-bottom:7px; }
+.bidLink:hover { color:#999999; text-decoration:none; }
+
+.lotDetailPrice { float:right; padding-top:20px; width:40%; }
+.lotDetailPrice p.artPrice { color:#333333; font-size:18px; line-height:25px; font-family: 'loraregular'; font-style:normal; font-weight:normal;  padding-bottom:40px;  }
+
+button.placeBid{ border:1px solid #fdb140; background:#fff; color:#fdb140; padding:10px; text-transform:uppercase; margin:20px 0 11px 0; letter-spacing:1px; font-family: 'catamaranregular';  }
+.requestBid { color:#fdb140; font-size:14px; color:#fdb140; line-height:16px; font-family: 'catamaranregular'; text-decoration:none;  background:url(../images/spriteIcons.png) 9px -1327px no-repeat; padding-left:34px; display:block; }
+.requestBid:hover { text-decoration:none; color:#fdb140; }
+
+.bidEnds { color: #666666;display: block; font-size: 14px; line-height: 24px;padding-bottom: 7px;padding-left: 34px; text-align: left; text-decoration: none;  background:url(../images/spriteIcons.png) 10px -1676px no-repeat; }
+
+.nonExpoLink , .nonExpoLink:hover { color:#999999; font-size:14px; line-height:12px; padding-bottom:6px; font-family: 'catamaranregular';  text-decoration:none; float:left; background:url(../images/spriteIcons.png) -1px -760px no-repeat; padding-left:23px; }
+.featuredLink { color:#feae36; font-size:12px; line-height:20px; font-family: 'catamaranregular'; text-decoration:none; background:url(../images/spriteIcons.png) -27px -823px no-repeat; width:17px; height:19px; display:inline-block; float:right; }
+.featuredLink:hover , .featuredLink.activeStar  { text-decoration:none; background-position:-1px -823px; }
+
+.AbsRhtBtmBox { position:absolute; bottom:12px; right:12px; width:27%; }
+.AbsRhtBtmBox p { color:#999999; font-size:12px; line-height:12px; font-family: 'loraregular'; display:inline-block; }
+
+.FeatureFlag { position:absolute; top:0px; right:-13px; background:url(../images/listpage/featured.png) left top no-repeat; width:99px; height:33px; }
+
+/* list 1 style starts */
+.maxPadding { padding-top:45px; }
+
+.winningClose { background:#f9f9f9; padding:15px; margin-top:12px; text-align:left; height:92px; }
+.winningClose p { color:#999999; font-size:12px; font-family: 'catamaranregular'; line-height:12px; font-weight:normal; font-style:normal; padding-bottom:15px; }
+.winningClose p span { color:#666666; font-size:14px; line-height:14px;  font-family: 'loraregular';  font-weight:normal; font-style:normal; }
+.winningClose h3 { color:#cccccc; text-transform:uppercase; letter-spacing:0px; }
+
+.enterRoom { width:240px; padding-bottom:20px; }
+.enterRoom button { width:209px; padding:13px 10px 13px 51px; border:none; text-transform:uppercase; color:#fff; font-family: 'catamaranregular'; font-size:16px; line-height:16px; background:#ffae33 url(../images/spriteIcons.png) 27px -1276px no-repeat; }
+
+
+/* pagination style starts */
+.btmPagin { color:#333333; }
+.btmPagin li { display:inline-block; float:left; padding-left:5px; padding-right:5px; font-family: 'catamaranregular'; font-size:18px; }
+.btmPagin li a { background:none; border:none; color:#333333; text-decoration:underline; font-family: 'catamaranregular'; font-size:14px; }
+.btmPagin li:hover a   { color:#333333; background:none; }
+.btmPagin li.active a , .btmPagin li.active:hover a { background:#ebebeb; color:#000;  }
+
+.titlePagi { padding:10px 8px 0 0; }
+
+.BtmLotsPagi .lotSele { float:right; margin-top:15px; }
+
+/* header tab links starts */
+.tabLinks { text-align:center; background:#fcfcfc; padding:13px 0; width:100%; margin-bottom:25px; }
+.tabLinks li { display:inline-block; padding:0 20px; border-right:1px solid #999999; }
+.tabLinks li:last-child { border:none; }
+.tabLinks a { color:#999999; font-size:16px; line-height:18px; font-family: 'loraregular'; text-decoration:none; font-weight:normal; letter-spacing:0.5px; }
+
+.winBidIcon { width:44px; height:30px; background:url(../images/spriteIcons.png) -2px -1576px no-repeat; display:block; margin:0 auto 8px auto; }
+
+.mobileFilterSort { display:none; }
+
+

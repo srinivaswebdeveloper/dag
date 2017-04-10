@@ -1,0 +1,29 @@
+/* Banner starts */
+.banner { padding-top:20px; }
+ 
+.masterEvent .slick-prev , .masterEvent .slick-next { background:none; border:none; width:44px; height:81px; position:absolute; display:none !important; text-indent:-9999px; }
+.masterEvent .slick-prev { left:10px; top:28%; z-index:1; background:url(../images/spriteIcons.png) 0px -143px no-repeat; background-size:26px; }
+.masterEvent .slick-next {   right:10px; top:28%; z-index:1; background:url(../images/spriteIcons.png) 18px -217px no-repeat; background-size:26px; }
+.masterEvent:hover .slick-prev , .masterEvent:hover .slick-next { display:block !important; }
+
+.masterEvent .slick-dots { position:absolute; top:68%; width:100%; text-align:center; }
+.masterEvent .slick-dots li { display:inline-block; margin:0 5px;}
+.masterEvent .slick-dots li button { background:#fff; opacity:0.5; border:none; width:45px; height:5px; text-indent:-9999px; }
+.masterEvent .slick-dots li.slick-active button { opacity:1; background:#fff; }
+/* Banner ends */
+
+
+/* upcoming auction starts */
+.upcomingEventBox { padding:54px 0;}
+.upcomingEventBox ul { padding:0px; margin:0px; }
+.upcomingEventBox ul li:first-child {  list-style:none; padding:0 5px 0 0; }
+.upcomingEventBox ul li:last-child {  list-style:none; padding:0 0 0 5px; }
+.upcomingImg img { width:100%; max-width:100%; }
+.upcomingArtTxt { padding:20px 20px 35px 20px; box-shadow:1px 1px 5px #efefef; }
+.upcomingArtTxt h3 {  margin:0px; padding:0 0 20px 0;}
+.upcomingArtTxt h3 a { color:#999999; font-size:16px; line-height:18px; font-family:'montserratregular'; }
+.upcomingArtTxt h3 a:hover , .upcomingArtTxt h3.activeTxt a { color:#f8b530; text-decoration:none; }
+.upcomingArtTxt hr { border-top:1px solid #000000; width:144px; margin:0px; padding:0px; }
+.upcomingArtTxt h2 { font-family: 'crimson_textroman'; font-size:22px; line-height:24px; margin:0px; padding:18px 0 22px 0; }
+.upcomingArtTxt p { color:#999999; font-size:16px; line-height:15px; font-weight:normal; font-family:'montserratregular'; padding-bottom:13px; }
+/* upcoming auction ends */

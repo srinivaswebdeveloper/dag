@@ -1,0 +1,200 @@
+.pdpTitleSection{padding:0;border-bottom: 1px solid #333;margin-bottom:40px;color:#000;font-family: 'loraregular';}
+.mainTitle{font-size:18px;}
+.mainTitle span{color:#999999;font-size:14px;padding-left:30px;}
+.subTitle{margin: 20px 0;font-size:24px;}
+.subTitle span{font-size:14px;color:#999;}
+.subTitle span.artistProfile{color:#fdb140;padding-left:20px;}
+.atworks{margin: 20px 0;font-size:14px;color:#999;}
+.atworks span{margin-left:20px;font-size: 12px;line-height: 20px;font-family: 'catamaranregular';text-decoration: none;background: url(../images/spriteIcons.png) -27px -825px no-repeat;width: 17px;height: 19px;display: inline-block;vertical-align: top;}
+
+
+
+.pdpDescrtion{border:1px solid #ccc;margin: 30px 0;clear: both;}
+.pdpDescrtion .leftContant{width:50%;float:left;padding-right:5%;}
+#tabs li{ margin:0px 20px;border-bottom: 2px solid #fff;display: inline-block; color:#999999;font-size:18px;text-transform: capitalize;font-family: 'loraregular';}
+#tabs li.active{border-bottom:2px solid #333;}
+#tabs li.active a{color:#333333;}
+#tabs li a{padding:20px 10px; border:none;border-radius: 0;color:#999;}
+.leftContant .nav-tabs{border-bottom: 0;}
+#tabs li a:hover{background:none;}
+.prodctdes{padding:30px;background:#f9f9f9;height:470px;color:#666666;font-family: 'catamaranregular';border-top:1px solid #ccc;border-right:1px solid #ccc;}
+.prodctdes p{padding:0 0 3px;color:#666666;font-size:14px;}
+.prodctdes strong{color:#333;display: inline-block;}
+.prodctdes .pdpsubtitle{font-size:20px;padding:20px 0 20px;font-size:18px;}
+.prodctdes .pdpsubtitle:first-child{padding-top:0px;}
+.pdpDescrtion .RightContant{width:50%;float: left;padding:0 5%}
+.non-expotable{display: block;margin: 30px 0;}
+.price-section{color:#333;padding-bottom: 20px;border-bottom:1px solid #ccc;font-size: 18px;line-height: 25px;font-family: 'loraregular';font-style: normal;font-weight: normal;}
+.price-section span{color:#999;}
+.price{font-family: 'HelveticaNeue' !important;color:#999;}
+.lotDetailDescri p .price,
+.price-section .price{font-family: 'HelveticaNeue' !important;color:#333;}
+.nonExpoLink{color: #999999;  font-size: 14px;    line-height: 12px;    font-family: 'catamaranregular';    background: url(../images/spriteIcons.png) -1px -755px no-repeat;    padding-left: 23px;}
+.bid-section{margin:20px 0; }
+.bid {color: #666;font-size: 14px;line-height: 24px;padding-left: 24px;background: url(../images/spriteIcons.png) 0px -702px no-repeat;text-decoration: none;text-align: left;display: inline-block;}
+.report{  float:right;font-size: 14px;color: #fdb140;line-height: 16px;font-family: 'catamaranregular';text-decoration: none;background: url(../images/spriteIcons.png) 0px -1327px no-repeat;padding-left: 24px;display: inline-block;}
+button.placeBid {border: 1px solid #fdb140;background: #fff;color: #fdb140;padding: 10px;text-transform: uppercase;letter-spacing: 1px;font-family: 'catamaranregular';}
+
+.pdpSlider li{padding:20px;background: #ffffff;margin: 5px;border:1px solid #ccc;}
+.lotDetailDescri{color: #333333;font-size: 16px;line-height: 16px;font-family: 'loraregular';font-style: normal;font-weight: normal;}
+.lotDetailDescri h4 {color: #999999;font-size: 12px;line-height: 14px;padding-bottom: 10px;}
+.lotDetailDescri p{	 padding-bottom: 10px;}
+.lotDetailDescri p.artistName ,
+.lotDetailDescri p.artTitle { font-size: 18px;font-family: 'lorabold';}
+.lotDetailDescri p.artDesci {line-height: 19px; }
+.lotDetailDescri p.artFrame {padding-bottom: 0px;}
+.pdp-slider{padding:	30px 15px;background: #f9f9f9;margin-bottom: 30px;}
+.pdp-slider .title{text-align: center;padding-bottom: 30px;font-family: 'loraregular';font-size:18px;}
+.pdpSlider img{max-width:100%;}
+.nextLink:hover,
+.nextLink{text-decoration: none;color:#333;}
+.nextLink .icon{background: url('../images/spriteicons-new.png')no-repeat -10px -45px ;width:20px;height:10px;display: inline-block;}
+
+.pdpSlider .slick-prev, .pdpSlider .slick-next {background: url(../images/spriteicons-new.png) no-repeat;border: none;width: 35px;height: 65px;position: absolute;text-indent: -9999px;top: 40%;background-size:800px;z-index: 1;}
+.pdpSlider .slick-prev {    left: 10px;    background-position:-55px -72px;}
+.pdpSlider .slick-next {    right: 10px;      background-position:-55px -7px ;}
+button.bidsaleroom{color:#fff;background: #fdb140;}
+button.bidsaleroom .icon{ background: url('../images/spriteicons-new.png')no-repeat -10px -65px ;width:35px;height: 20px;display: inline-block; position: relative;top:5px;}
+.bid-buttion{margin: 20px 0;background: #f9f9f9;padding:20px;display: inline-block;}
+.bid-buttion span.icon{    margin: 0px auto 10px;background: url('../images/spriteicons-new.png')no-repeat -10px -9px ;width:40px;height: 30px;display: block;}
+.bid-buttion span{font-size:14px;color:#999;font-family: 'loraregular';}
+.bid-buttion span .price{font-size:18px;color:#666;vertical-align: middle;}
+
+.rupe{font-family: 'rupeeforadian';}
+.chkt-tabs li{display: inline-block;font-size:18px;color:#666;}
+.chkt-tabs li.active{color:red;}
+@media(max-width:1024px){
+	.prodctdes{padding:5%;}
+	.pdpDescrtion .RightContant,
+	.pdpDescrtion .leftContant{	padding-right:2%;	}
+	.pdpDescrtion .RightContant{padding:0 2%;}
+	#tabs span {  margin: 0px 15px;  padding: 10px 5px;}
+	.lotDetailDescri p{font-size:14px;}
+	.lotDetailDescri p.artistName, .lotDetailDescri p.artTitle{text-align: left;font-size:16px;}
+}
+@media(max-width:800px){
+	.pdpDescrtion .RightContant,
+	.pdpDescrtion .leftContant{		width:100%;		float:none;	}
+	.pdpDescrtion .leftContant{padding-right:0;}
+	.pdpDescrtion .RightContant{padding:0 5%;margin-bottom:30px;}	
+	.subTitle,
+	.mainTitle,
+	.mainTitle span,
+	.lotDetailDescri p,
+	.banTxtRt{text-align: left;}
+	.pdp-slider{padding:15px;margin-bottom: 15px;}
+	.pdp-slider .title{padding-bottom:15px;}
+
+}
+@media(max-width:480px){
+	.mainTitle{font-size:16px;text-align: left;}
+	.subTitle span.artistProfile,
+	.mainTitle span{display: block;margin:10px 0 0;padding:0;text-align: left }
+	.subTitle{margin: 15px 0;font-size:18px;}
+	#tabs li {    margin: 0px 5px;font-size: 14px;}
+		#tabs li a{padding:10px;}
+	.pdpDescrtion,
+	.atworks,
+	.bid-section,
+	.non-expotable{margin: 15px 0;}
+	.pdpTitleSection{margin-bottom: 15px;}
+	.prodctdes{height:270px;}
+	.prodctdes .pdpsubtitle{padding:15px 0;font-size:16px;}
+	.prodctdes{padding:5%;}
+	.price-section{font-size:14px;}
+	.pdpSlider .slick-prev, .pdpSlider .slick-next {background: url(../images/spriteIcons.png) no-repeat;border: none;width:30px;height: 30px;position: absolute;text-indent: -9999px;top: 50%;z-index: 1;margin-top:-15px; }
+	.pdpSlider .slick-prev {  background-color:#ccc;  left: 10px;    background-position:-2px -1491px ;}
+	.pdpSlider .slick-next {   background-color:#ccc; right: 10px;      background-position:-6px -1400px;}
+	
+
+
+}
+@media(max-width:320px){
+	#tabs span { margin: 0px 5px;	}
+	.report{float:none;}
+}
+
+.pdpTitleSection:after,.pdpTitleSection:before,
+ .bid-section:after, .bid-section:before,   .pdpDescrtion:after, .pdpDescrtion:before{content:"";clear: both;display: block;width:100%;}
+
+
+
+ /* PDP slider styles starts */
+ .pdp-slider-padd {text-align: center;}
+.pdp-slider-padd .slick-prev {width: 44px;height: 81px;background: url(../images/spriteIcons.png) no-repeat 0px -273px transparent;border:0;z-index: 9;position: absolute;left: 16%;top: 40%;text-indent: -9999px;}
+.pdp-slider-padd .slick-next {width: 44px;height: 81px;background: url(../images/spriteIcons.png) no-repeat 0px -399px transparent;border:0;z-index: 9;position: absolute;right: 16%;top: 40%;text-indent: -9999px;}
+.pdp-slider-padd .slick-prev:focus, .pdp-slider-padd .slick-next:focus {outline: none;}
+
+.image-zoom {text-align: center;margin: 45px 0;}
+.image-zoom a {position: relative;text-transform: uppercase;color: #999999;font-size: 14px;padding-left: 23px;}
+.image-zoom a:hover {text-decoration: none;}
+.image-zoom a:before{content: "";background: url(../images/spriteicons-new.png) no-repeat -107px -10px;width: 15px;height: 15px;display: inline-block;position: absolute;left: 0;top: 1px;}
+
+.pdp-zoom-popup, .pdp-zoom-popup-overlay {display: none;}
+.pdp-zoom-popup-overlay {position:fixed;left: 0;top: 0;width: 100%;height: 100%;background: rgba(0,0,0,0.5);z-index: 99;}
+.pdp-zoom-popup {position: fixed;max-width: 1000px;left: 0; right: 0; margin: 0 auto;top: 10%;z-index: 99;padding: 10px;}
+.pdp-zoom-popup-close {background: url(../images/spriteicons-new.png) no-repeat -142px -10px;width: 22px;height: 22px;text-indent: -9999px;display: block;position: absolute;right: 0;top: -35px;}
+
+.pdp-thumSlider1 {margin-bottom: 25px;}
+.pdp-thumSlider1 li {margin: 0 5px;}
+.pdp-thumSlider1 li img {max-width: 100%;}
+.pdp-thumSlider1 .slick-prev {width: 13px;height: 23px;background: url(../images/spriteIcons.png) no-repeat -10px -1495px transparent;border:0;z-index: 9;position: absolute;left: 10px;top: 40%;text-indent: -9999px;}
+.pdp-thumSlider1 .slick-next {width: 13px;height: 23px;background: url(../images/spriteIcons.png) no-repeat -15px -1405px transparent;border:0;z-index: 9;position: absolute;right: 10px;top: 40%;text-indent: -9999px;}
+.pdp-thumSlider1 .slick-prev:focus, .pdp-thumSlider1 .slick-next:focus {outline: none;}
+.pdp-thumSlider1 li.slick-current.slick-active {padding-bottom: 23px;border-bottom: 4px solid #fbb638;}
+
+.pdp-slider .slick-slide{display:inline-block;text-align: center;}
+.pdp-slider img{display:inline-block;text-align: center;}
+.pdp-zoom-popup img{display:block}
+.thumbnails .slick-slide{float: left !important}
+.pdp-slider-padd .slick-slide{padding: 0 180px;}
+.pdp-zoom-popup .slick-slide{padding: 0 55px;}
+.pdp-zoom-popup .slick-prev {left: 8%;}
+.pdp-zoom-popup .slick-next{right: 7%;}
+
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+	.pdp-slider-padd .slick-slide {
+    	padding: 0;
+	}
+	.pdp-slider-padd .slick-slide img {
+		max-width: 100%;
+	}
+	.pdp-slider-padd .slick-prev {
+		left: 5%;
+	}
+	.pdp-slider-padd .slick-next {
+		right: 5%;
+	}
+	.pdp-thumSlider1 .slick-prev, .pdp-thumSlider1 .slick-next {
+		top: 25%;
+	}
+	.pdp-zoom-popup-close{
+		right: 15px;
+	}
+}
+@media screen and (max-width: 767px) {
+	.pdp-slider-padd .slick-slide {
+    	padding: 0;
+	}
+	.pdp-slider-padd .slick-slide img {
+		max-width: 100%;
+	}
+	.pdp-slider-padd .slick-prev {
+		left: 5%;
+		background-position: -10px -1495px;
+	}
+	.pdp-slider-padd .slick-next {
+		right: 5%;
+		background-position: 15px -1404px;
+	}
+	.pdp-thumSlider1 .slick-prev, .pdp-thumSlider1 .slick-next {
+		top: 30%;
+	}
+	.pdp-zoom-popup-close{
+		right: 15px;
+	}
+	
+}
+
+/* PDP slider styles ends */

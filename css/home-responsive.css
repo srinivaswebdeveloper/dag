@@ -1,0 +1,90 @@
+@charset "utf-8";
+/* CSS Document */
+
+@media screen and (max-width:1400px) { }
+
+@media screen and (max-width: 1280px) 
+{  
+	.bannerTextBox { padding-left:10px; padding-right:10px; }
+}
+
+@media screen and (max-width: 1200px) { }
+
+@media screen and (max-width: 1024px) 
+{ 
+	/* banner style starts */
+	.banTxtLt h2 { font-size:29px; }
+	.banTxtLt p { font-size:15px; }
+	button.calender, button.Catelogue { font-size:12px; }
+	/* banner style ends */
+	
+	/* upcoming style start */
+	.upcomingArtTxt h3 { padding-bottom:12px; }
+	.upcomingArtTxt h2 { font-size:21px; padding-bottom:14px; }
+	.upcomingArtTxt p { font-size:15px; }
+	/* upcoming style ends */	
+}
+
+ 
+
+@media screen and (max-width: 980px) { }
+
+@media screen and (max-width:946px)  { }
+
+@media screen and (max-width: 900px) { }
+
+@media screen and (max-width: 800px) 
+{ 
+	.bannerTextBox , .artistName , .banTxtLt , .banTxtRt { width:100%; text-align:center; }
+ 	.bannerTextBox .artistName { text-align:center !important; }
+	.banTxtRt { padding-top:15px; }
+	.masterEvent .slick-dots { top:60%; }
+	
+	/* Banner style starts */
+	.banTxtLt h2 { font-size:18px; padding:0px; }
+	.banTxtLt p { font-size:12px; }
+	.banTxtRt { padding-top:3px; }
+	.banTxtRt h4 { font-size:12px; padding-bottom:10px; }
+	.artistName { padding-bottom:6px; }
+	/* Banner style Ends */
+	
+	/* upcomingEventBox starts */
+	.upcomingEventBox { padding:35px 0; }
+	.upcomingEventBox ul li:first-child , .upcomingEventBox ul li:last-child { padding:0px;  }
+	.upcomingArtTxt { text-align:center; padding-left:10px; padding-right:10px; }
+	.upcomingArtTxt h3 { text-align:center; padding-bottom:0px; font-size:12px; }
+	.upcomingArtTxt hr { margin:10px auto; width:60px; }
+	.upcomingArtTxt h2 { padding:0 0 5px 0; font-size:18px; }
+	.upcomingArtTxt p { font-size:12px; font-family: 'montserratlight'; padding-bottom:10px; }
+	
+	/* upcomingEventBox ends */
+} 
+
+@media screen and (max-width: 768px) 
+{
+	.masterEvent .slick-prev , .masterEvent .slick-next , .masterEvent:hover .slick-prev , .masterEvent:hover .slick-next { display:none !important;  }
+}
+
+@media screen and (max-width: 670px) 
+{
+	.banner { padding-top:7px; }
+}
+
+@media screen and (max-width: 640px) { }
+
+@media screen and (max-width: 540px) { }
+
+@media screen and (max-width: 480px) { } 
+
+@media screen and (max-width: 400px) { }
+
+@media screen and (max-width: 360px) 
+{
+	.upcomingArtTxt p { padding-bottom:10px; }
+}
+
+@media screen and (max-width: 320px) { }
+
+
+
+

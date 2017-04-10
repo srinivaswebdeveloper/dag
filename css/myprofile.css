@@ -1,0 +1,43 @@
+.profile_form_list{}
+.subtitle{color:#000;font-family: 'catamaransemibold';margin-bottom: 5px;text-transform: capitalize;}
+.list_profile{padding:5px 0;}
+.list_profile span{font-size:13px;color:#666666;font-family: 'catamaranregular';}
+.list_name{width:100px;display: inline-block;text-transform: capitalize;}
+.list_value{padding-left:10px;}
+.viewprofile,
+.changepassword,
+.editprofile{clear:both;float: right;text-transform: capitalize;color:#666;font-size:13px;font-family: 'catamaranregular';color:#fdb140;}
+.editprofile:before{content:"";margin-right:2px;display:inline-block;width:20px;height:16px;background: url(../images/spriteicons-new.png) no-repeat;background-size:800px;background-position:-10px -97px;   }
+a:hover{color:#fdb140;text-decoration: none;}
+.congap{margin-top: 5px;}
+
+
+/* Change password form */
+
+.fields .input-box{width:50%;font-family: 'catamaranregular';position: relative;}
+.fields .input-box select,
+.fields .input-box input{width:100%;margin:7px 0 10px;padding:5px 10px;border:1px solid #e1e1e1;line-height: 1.5;}
+.fields .input-box select:focus,
+.fields .input-box input:focus{border-color: #fdb140;    outline: none;}
+.fields .field-title{text-transform: capitalize;font-size:14px;color:#282224;}
+.buttons-set{margin: 10px 0;font-family: 'catamaranregular';}
+.buttons-set .button{ background: #fdb140;color: #ffffff;font-size: 16px;line-height: 16px;border: none;padding: 8px 30px 10px;letter-spacing: -0.1px;text-transform: uppercase;}
+.back-link{display:inline;margin-right:20px;}
+.back-link a{color:#fdb140;text-decoration: none;font-size:14px;}
+.passwordchange:after{content:"";display:inline-block;width:25px;height:15px;background: url(../images/spriteicons-new.png) no-repeat;background-size:800px;background-position:-10px -119px;  position: absolute;right: 10px;top:20px; }
+.newpasswordchange:after{content:"";display:inline-block;width:25px;height:15px;background: url(../images/spriteicons-new.png) no-repeat;background-size:800px;background-position:-10px -140px;  position: absolute;right: 10px;top:20px; }
+
+/* Edit Profile form */
+
+@media(max-width: 480px){
+	.profile_form_list,
+	.fields,
+	.fields .input-box{
+		width:100%;
+		clear: both;
+	}
+}
+
+
+.buttons-set:after,
+.buttons-set:before{content:"";clear: both;display: block;width:100%;}

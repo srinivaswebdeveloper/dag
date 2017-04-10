@@ -1,0 +1,63 @@
+
+a.back_btn span:before {
+    content: "\f100";
+    font-family: 'FontAwesome';
+    padding-right: 5px;
+}
+
+a.back_btn {
+    color: #fdb140;
+    margin-right: 25px;
+}
+p.myaccount-msg {
+    float: right;
+    clear: both;
+    padding-right: 16px;
+    margin-bottom: 25px;
+}
+h5.kyc-msg {
+    font-family: 'loraregular';
+    margin-bottom: 15px;
+}
+.kyc_input_block .checkbox.by input {
+    margin-top: 4px;
+}
+.myaccount-table-block {
+    background: #fdfdfd;
+    padding: 20px;
+	overflow-x: auto;
+}
+.myaccount-table-block table thead tr th {
+    font-family: 'loraregular';
+    font-size: 16px;
+    font-weight: normal;
+    color: #333;
+}
+.myaccount-table-block table tbody tr td {
+    font-size: 14px;
+    color: #666;
+}
+.myaccount-table-block .table>thead>tr>th {
+    border-bottom: transparent;
+}
+.myaccount-table-block .table>tbody>tr>td, .myaccount-table-block .table>tbody>tr>th, .myaccount-table-block .table>tfoot>tr>td, .myaccount-table-block .table>tfoot>tr>th, .myaccount-table-block .table>thead>tr>td, .myaccount-table-block .table>thead>tr>th{
+
+	border-top: 1px solid #fff;
+}
+.myaccount-table-block .commonBtn.bidNow {
+    padding: 15px 0;
+    margin: 40px auto;
+    display: block;
+}
+span.tick:after {
+    content: "\f00c";
+    font-family: FontAwesome;
+    color: #389d01;
+}
+span.cross:after {
+    content: "\f00d";
+    font-family: FontAwesome;
+    cursor: pointer;
+    color: #ff0808;
+}
+

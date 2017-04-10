@@ -1,0 +1,63 @@
+.main_title {}
+.main_title h1 {font-family: 'loraregular';font-size: 30px;color: #000;border-bottom: 1px solid #333;padding: 0 0 21px;margin: 15px 0 25px;}
+.login-register {}
+.register-rt {border-left: 1px solid #ccc;margin-bottom: 60px;}
+.register-rt form{float: right;}
+.login-register .col-lg-6{padding: 0;}
+.login-register form {width: 80%;}
+.login-register form label {color: #282224;font-size: 14px;font-family: 'loraregular';font-weight: normal;padding-bottom: 10px;}
+.login-register form input, .login-register form select {border-radius: 0;border-color: #e1e1e1;margin-bottom: 10px;box-shadow: none;font-size: 15px;font-family: 'catamaranregular';}
+.login-register form input:focus, .login-register form .mobile select:focus {box-shadow: none;border-color: #666;}
+.login-register .select-style {float: left;width: 10%;background-position: 802% -1009px;}
+.login-register form .mobile select {display: inline-block;float: left;width: 100%;padding: 2px;border-right: 0;color: #999;margin-bottom: 0;height: 32px;}
+.login-register form .mobile input {display: inline-block;float: left;width: 90%;}
+.login-register form .checkbox label {font-family: 'catamaranregular';font-size: 16px;}
+.login-register form .checkbox a {font-family: 'catamaranregular';font-size: 15px;float: right;color: #fdb140;}
+.login-register form .checkbox.by {float: left;margin-top: 12px;}
+.login-register form .checkbox.by label {color: #999;}
+.login-register form p {color: #333;font-family: 'loraregular';font-size: 15px;margin: 20px 0;}
+.login-register form p a {color: #fdb140;}
+.register-rt .main_title {display: none;}
+
+/* contact us page */
+.reachus {margin-bottom: 50px;}
+.reachus-lt {padding-left: 0;padding-right: 20px;}
+.reachus-rt {padding-right: 0;padding-left: 20px;}
+.reachus h4 {font-family: 'loraregular';font-size: 18px;color: #333;margin-bottom: 12px;}
+.reachus iframe {margin-top: 25px;}
+.contact-box {background: #fbfaf6;padding: 40px;font-family: 'catamaranregular';font-size: 16px;margin-top: 30px;line-height: 22px;}
+.contact-box h3 {font-size: 18px;color: #000;font-weight: bold;margin-bottom: 5px;}
+.contact-box p {font-size: 16px;padding: 15px 0;}
+.contact-box span {font-weight: bold;}
+.contact-box p a {color: #333}
+
+
+/* dropdown */
+.LoginRegis {position: relative;}
+.respSign ul{left: 0;}
+.LoginRegis ul, .respSign ul {display: none;text-align: left;padding: 10px 0 0;position: absolute;background: #fff;top: 82px;width: 100%;z-index: 9;box-shadow: 0 5px 10px 0 #ccc;-moz-box-shadow:0 5px 10px 0 #ccc;-webkit-box-shadow:0 5px 10px 0 #ccc;}
+.LoginRegis:hover ul {display: block;}
+.LoginRegis ul li a, .respSign ul li a {text-align: left;padding: 15px 45px;display: block;color: #bbb9ba;font-size: 15px;}
+.LoginRegis ul li a:hover, .respSign ul li:hover {color:#f9b439 }
+.LoginRegis ul li.logout a, .respSign ul li.logout a {box-shadow: 0 -5px 5px -5px #ccc;padding-bottom: 20px;color: #999;font-size: 18px;position: relative;padding-left: 66px;}
+.LoginRegis ul li.logout a:before, .respSign ul li.logout a:before {content: "";background:url(../images/spriteIcons.png) left -1638px no-repeat;width: 14px;height: 16px;position: absolute;left: 45px;top: 16px;}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+	.login-register form .mobile .select-style {width: 20%;background-position:41px -1009px;}
+	.login-register form .mobile input {width: 80%;}
+	.login-register form {width: 95%;}
+}
+@media screen and (max-width: 767px) {
+	.main_title h1 {font-size: 24px;margin: 15px 0 20px;padding: 0 0 15px;}
+	.register-rt {border-left: 0;}
+	.register-rt .main_title {display: block;}
+	.main_title h1 span {display: none;}
+	.register-rt form{float: none;} 
+	.login-register form {width: 100%;} 
+	.login-register form .mobile .select-style {width: 20%;background-position:43px -1009px;}
+	.login-register form .mobile input {width: 80%;}
+
+	.reachus-lt {padding-right: 0;}
+	.reachus-rt {padding-left: 0;}
+	.contact-box {padding: 15px;}
+}

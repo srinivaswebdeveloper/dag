@@ -1,0 +1,148 @@
+.consignee-serach .serch-form {
+	width:52%;
+	margin:30px auto;
+}
+.consignee-serach .serch-form .input-group-btn > .btn {
+	border-left-width:0;
+	left:-2px;
+	-webkit-box-shadow: inherit;
+	box-shadow:  inherit;
+	background:none;
+	border:solid 2px #cccccc;
+	border-left:none;
+	border-radius:0px;
+}
+.consignee-serach .serch-form input {
+	border:solid 2px #cccccc;
+	-webkit-box-shadow: inherit;
+	border-radius:0px;
+	box-shadow:  inherit;
+	height:36px;
+	border-right:none;
+}
+.serch-consignee {
+	font-size:28px;
+	font-family: 'loraregular';
+	text-align:center;
+	color:#000;
+
+}
+.consignee-serach .searchTxt span.search {
+	background-position: -3px 0px;
+}
+/* stop the glowing blue shadow */
+.consignee-serach .serch-form .form-control:focus {
+	box-shadow:none;
+	-webkit-box-shadow:none;
+	border-color:#cccccc;
+}
+
+.tabs-left, .tabs-right {
+  border-bottom: none;
+  padding-top: 2px;
+}
+
+.tabs-right {
+  border-left: 1px solid #ddd;
+}
+.tabs-left>li, .tabs-right>li {
+  float: none;
+  margin-bottom: 2px;
+}
+
+.tabs-right>li {
+  margin-left: -1px;
+}
+.tabs-left>li.active>a,
+.tabs-left>li.active>a:hover,
+.tabs-left>li.active>a:focus {
+  border-bottom-color: #ddd;
+  border-right-color: transparent;
+}
+
+.tabs-right>li.active>a,
+.tabs-right>li.active>a:hover,
+.tabs-right>li.active>a:focus {
+  border-bottom: 1px solid #ddd;
+  border-left-color: transparent;
+}
+.tabs-left>li>a {
+  border-radius: 4px 0 0 4px;
+  margin-right: 0;
+  display:block;
+}
+.tabs-right>li>a {
+  border-radius: 0 4px 4px 0;
+  margin-right: 0;
+}
+.vertical-text {
+  margin-top:50px;
+  border: none;
+  position: relative;
+}
+.vertical-text>li {
+  height: 20px;
+  width: 120px;
+  margin-bottom: 100px;
+}
+.vertical-text>li>a {
+  border-bottom: 1px solid #ddd;
+  border-right-color: transparent;
+  text-align: center;
+  border-radius: 4px 4px 0px 0px;
+}
+.vertical-text>li.active>a,
+.vertical-text>li.active>a:hover,
+.vertical-text>li.active>a:focus {
+  border-bottom-color: transparent;
+  border-right-color: #ddd;
+  border-left-color: #ddd;
+}
+.vertical-text.tabs-left {
+  left: -50px;
+}
+.vertical-text.tabs-right {
+  right: -50px;
+}
+.vertical-text.tabs-right>li {
+  -webkit-transform: rotate(90deg);
+  -moz-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  -o-transform: rotate(90deg);
+  transform: rotate(90deg);
+}
+.vertical-text.tabs-left>li {
+  -webkit-transform: rotate(-90deg);
+  -moz-transform: rotate(-90deg);
+  -ms-transform: rotate(-90deg);
+  -o-transform: rotate(-90deg);
+  transform: rotate(-90deg);
+}
+
+.search-consignee-content{ border-top:solid 1px #000; padding-bottom:40px; padding-top:50px; margin-top:0px;  padding-left:0px;  padding-right:0px}
+.left-tabs-section { border-right:solid 1px #efefef; padding-right:0px; padding-left:0px;font-family: 'loraregular'; min-height:700px; font-size:14px;}
+.left-tabs-section h2 {font-size:24px; color:#222; margin-bottom:30px; }
+
+.left-tabs-section  .nav>li>a:focus, .left-tabs-section .nav>li>a:hover{ background-color:transparent;}
+.left-tabs-section  .tabs-left > li > a{border-bottom-color: #efefef; border-right-color: transparent; border-left-color: transparent; border-top-color: transparent; border-radius:0px; color:#999;padding-left: 0px;}
+.left-tabs-section .nav-tabs > li.active > a, .left-tabs-section .nav-tabs > li.active > a:focus, .left-tabs-section .nav-tabs > li.active > a:hover { color:#222; background-color:#fff;}
+.left-tabs-section  .tabs-left > li.active > a, .left-tabs-section  .tabs-left > li.active > a:hover, .left-tabs-section  .tabs-left > li.active > a:focus{ border-bottom-color: #222;border-right-color: transparent; border-left-color: transparent; border-top-color: transparent;}
+.right-info-section{ color:#666666; font-size:14px; padding-left:40px; padding-right:0px;}
+.right-info-section p{ padding-bottom:20px;font-family: 'catamaranregular'; line-height:1.4; text-align:justify;}
+.right-info-section .qtn{ font-family: 'loraregular';  color:#333; font-size:16px; padding-bottom:10px;}
+.right-info-section h3{ text-transform:uppercase; font-family: 'lorabold'; margin-bottom:20px; font-size:16px; color:#222; }
+
+@media(max-width:1100px){
+.left-tabs-section h2{ font-size: 18px;
+}
+
+@media(max-width:680px){
+.left-tabs-section { width:100%; padding:10px 0px; min-height:auto; border-right:none; }
+.right-info-section{width:100%; padding:10px 0px; min-height:auto;}
+.search-consignee-content{ padding:10px 0px;}
+.left-tabs-section h2 {   font-size: 16px; margin-bottom: 10px;}
+.serch-consignee {font-size: 16px;}
+.consignee-serach .serch-form { width: 100%;}
+}
+
+

@@ -1,0 +1,59 @@
+.address-main {}
+.address-main .address-title {padding: 13px 20px 13px 30px;}
+.address-main .address-title h1 {font-family: 'loraregular';font-size: 20px;color: #333;padding: 12px 0;float: left;}
+.address-main .address-title .commonBtn.bidNow {float: right;}
+.address-main .address-title:after{content: "";clear: both;display: block;}
+
+.address_wrap {}
+.address_wrap .address-subtitle {font-size: 16px;color: #000;font-family: 'loraregular';padding: 18px 30px;background: #fdfdfd;}
+.address_wrap .address-list {padding: 18px 0;}
+.address_wrap .address-list ul {margin: 0;padding: 0;}
+.address_wrap .address-list ul li {width: 32.33%;position: relative;color: #999;padding: 0 15px 0px 30px;}
+.address_wrap .address-list ul li:before {content: "";background: #fff;width: 2px;height: 145px;position: absolute;left: -4px;top: 12px;}
+.address_wrap .address-list ul li h3 {font-size: 16px;font-family: 'lorabold';display: block;}
+.address_wrap .address-list ul li h3 a {float: right;font-size: 14px;font-family: 'catamaranregular';color: #fdb140;}
+.address_wrap .address-list ul li h3 a:hover {text-decoration: none;}
+.address_wrap .address-list ul li h3 a span{background:url(../images/spriteicons-new.png) no-repeat -10px -99px;width: 16px;height: 14px;display: inline-block;float: left;margin-right: 6px; }
+.address_wrap .address-list ul li h4 {font-family: 'catamaransemibold';font-size: 15px;padding: 12px 0 7px;}
+.address_wrap .address-list ul li p {font-family: 'catamaranregular';font-size: 15px;line-height: 18px;}
+.address_wrap .address-list ul.other-address li{color: #000;}
+.address_wrap .address-list ul.other-address li h4, .address_wrap .address-list ul.other-address li p {color: #666;}
+
+
+.address_feilds {padding: 0px 30px 20px;max-width: 400px;}
+.address_feilds form label {color: #282224;font-size: 14px;font-family: 'loraregular';font-weight: normal;padding-bottom: 10px;}
+.address_feilds form input, .login-register form select {border-radius: 0;border-color: #e1e1e1;margin-bottom: 10px;box-shadow: none;font-size: 15px;font-family: 'catamaranregular';}
+.address_feilds form textarea {display: block;width: 100%;border-radius: 0;border-color: #e1e1e1;margin-bottom: 10px;box-shadow: none;font-size: 15px;font-family: 'catamaranregular';height: 80px;} 
+.address_feilds form input:focus, .address_feilds form .mobile select:focus, .address_feilds form textarea:focus {box-shadow: none;border-color: #666;outline-color: #666;}
+.address_feilds .select-style {
+    padding: 0;
+    margin: 0;
+    border: 1px solid #e1e1e1;
+    width: 100%;
+    overflow: hidden;
+    text-align: left;
+    background-color: #fff;
+    display: inline-block;
+    background: white url(../images/spriteIcons.png) 113% -1011px no-repeat;
+}
+.address_feilds .select-style {background-position: 107% -1010px;}
+.address_feilds .mobile .select-style {float: left;width: 50px;background-position: 30px -1010px;}
+.address_feilds form .mobile select {display: inline-block;float: left;width: 100%;padding: 2px;border-right: 0;color: #999;margin-bottom: 0;height: 32px;}
+.address_feilds form .mobile input {display: inline-block;float: left;width: 290px;}
+.address_feilds form .checkbox label {font-family: 'catamaranregular';font-size: 16px;}
+
+
+@media screen and (min-width: 768px)  and (max-width: 1024px){
+	.address_wrap .address-list ul li {width: 49%;padding-bottom: 30px;}
+}
+
+@media screen and (max-width: 767px) {
+	.address_wrap .address-list ul li {width: 49%;padding-bottom: 30px;}
+}
+@media screen and (max-width: 480px) {
+	.address_wrap .address-list ul li {width: 100%;padding: 0 15px 30px 30px}
+	.address_wrap .address-list ul li:before {content: "";background: #fff;width:90%;height: 2px;position: absolute;left: 0;right: 0;margin: 0 auto;top: -17px;}
+	.address_wrap .address-list ul li:first-child:before {content: inherit;background: inherit;}
+	.address_feilds .mobile .select-style {width: 23%;}
+	.address_feilds form .mobile input {width: 77%;}
+}

@@ -1,0 +1,516 @@
+
+.ruppe-symbol{font-family: 'HelveticaNeue' !important; }
+.type_of_bidder, .advance_amount {
+    font-size: 14px;
+    padding-bottom: 7px;
+     color: #666;
+}
+.type_of_bidder span {
+    float: left;
+    width: 132px;
+
+}
+.type_of_bidder span, .advance_amount span {
+    color: #333;
+}
+.paddle_of {
+    color: #666;
+    float: right;
+    font-size: 14px;
+}
+.nick-name {
+    font-size: 14px;
+    float: right;
+    color: #999;
+}
+
+.nick-name span {
+    color: #333;
+}
+.refundFlag {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    width: 120px;
+    background: #dadada;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+
+.refundFlag p {
+    text-align: center;
+    padding: 9px 0;
+    font-family: 'loraregular';
+    font-size: 13px;
+    color: #333;
+    
+}
+.refundFlag p span{
+	padding-right: 30px;
+}
+.refundFlag p span:before {
+    content: "";
+    background: url(../images/purchases-sprite.png) no-repeat;
+    position: absolute;
+    width: 21px;
+    height: 20px;
+    background-position: 0 0px;
+    left: 20px;
+    margin-top: -6px;
+}
+.refundFlag.paid p span:before {
+    background-position: 0 -29px;
+}
+.refundFlag.paid p span {
+    padding-right: 0px;
+}
+
+.credit_amount span {
+    color: #666;
+     font-family: 'catamaranregular';
+}
+.credit_amount {
+    font-family: 'catamaranbold';;
+    color: #000;
+        margin-top: 8px;
+        text-align: right;
+}
+.advance_amount span.ruppe-symbol {
+    padding-left: 4px;
+}
+.my-auction-export {
+    position: relative;
+}
+
+.my-auction-export .nonExpoLink {
+    position: absolute;
+    bottom: 15px;
+    right: 6px;
+}
+.lotDetailPrice {
+    width: 48%;
+}
+
+/*---------------------------------------------------
+aboutus page style
+---------------------------------------------------*/
+
+.about-text {
+    font-family: 'catamaranregular';
+    font-size: 14px;
+    line-height: 18px;
+    padding-top: 30px;
+        padding-bottom: 30px;
+}
+
+.about-text p {
+    padding-bottom: 20px;
+        color: #666;
+}
+
+/*-----------------------------------------------------
+how to buy page styles
+-------------------------------------------------------*/
+
+.cms-howtobuy {
+    width: 70%;
+    margin: 0 auto;
+    padding-bottom: 30px;
+}
+.howtobuy-text-block h1 {
+    font-size: 24px;
+     color: #333; 
+    font-family: 'lorabold';
+        padding-bottom: 30px;
+}
+
+.howtobuy-text-block {
+    text-align: center;
+        color: #666;
+            font-family: 'loraregular';
+                font-size: 14px;
+}
+h2.steps {
+    font-family: 'lorabold';
+    font-size: 18px;
+    padding:30px 0;
+}
+.howtobuy-text-block ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.howtobuy-text-block ul li {
+    padding: 8px 0;
+    position: relative;
+        line-height: 18px;
+}
+.howtobuy-text-block ul li span{
+    
+    background: url(../images/sq-arrow.png) no-repeat;
+    width: 10px;
+    height: 10px;
+    position: absolute;
+        margin-left: -17px;
+    margin-top: 2px
+}
+.howtobuy-icon-block .icon-left .buy-left-icon {
+    width: 30%;
+    float: left;
+}
+
+.howtobuy-icon-block .icon-left .buy-text {
+    width: 70%;
+    float: left;
+    padding-top: 50px;
+    padding-left: 50px;
+}
+.howtobuy-icon-block .icon-right .buy-right-icon {
+    width: 30%;
+    float: left;
+}
+
+.howtobuy-icon-block .icon-right .buy-text {
+    width: 70%;
+    float: left;
+    padding-right: 35px;
+
+}
+.icon-left:after, .icon-left:before ,.icon-right:before, .icon-right:after{
+    display: table;
+    content: "";
+    clear: both;
+}
+
+.buy-text h4 {
+    color: #fbb239;
+    font-family: 'lorabold';
+    font-size: 18px;
+    padding-bottom: 15px;
+}
+.howtobuy-icon-block {
+    width: 80%;
+    margin: 0 auto;
+}
+.buy-text p {
+    font-family: 'catamaranregular';
+    font-size: 18px;
+    color: #666;
+}
+.icon-right {
+    padding-top: 50px;
+}
+.bottom-block h2.steps {
+    text-transform: uppercase;
+}
+
+.bottom-block  p {
+    line-height: 25px;
+}
+
+.bottom-block ul li {
+    font-weight: bold;
+        font-size: 14px;
+}
+
+.bottom-block ul {
+    padding-top: 10px;
+}
+
+
+@media(max-width: 414px){
+  .howtobuy-text-block ul {
+    padding-left: 15px;
+}
+.howtobuy-icon-block .icon-left .buy-text,.howtobuy-icon-block .icon-right .buy-text {
+    width: 100%;
+    padding-top: 10px;
+    padding-left: 0;
+}
+.howtobuy-icon-block .icon-left .buy-left-icon, .howtobuy-icon-block .icon-right .buy-right-icon{
+    width: 100%;
+    float: left;
+}
+.howtobuy-icon-block {
+    width: 100%;
+    margin: 0 auto;
+}
+.howtobuy-icon-block .icon-left .buy-left-icon img,.howtobuy-icon-block .icon-right .buy-right-icon img {
+    margin: 0 auto;
+    display: block;
+}
+.buy-text h4 {
+    text-align: center;
+}
+.icon-left {
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 19px;
+    padding-top: 10px;
+}
+.icon-right{
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 19px;
+}
+.icon-right {
+    padding-top: 10px;
+}
+}
+@media(max-width: 767px){
+  .howtobuy-icon-block {
+    width: 100%;
+   
+}
+}
+@media (max-width:1024px){
+  .cms-howtobuy {
+    width: 100%;
+}
+}
+
+
+
+
+
+
+/*---------------------------------------------
+end of how to buy css
+--------------------------------------------*/
+/*---------------------------------------------
+start of how to sell css
+--------------------------------------------*/
+
+
+.how-to-sell-process {
+    position: relative;
+    display: inline;
+    width: 100%;
+}
+
+.process-step {
+    width: 33%;
+    float: left;
+    display: inline;
+    text-align: center;
+        font-family: 'catamaranregular';
+    font-size: 19px;
+    color: #666;
+}
+
+.how-to-sell-process:before {
+    /* content: ""; */
+    /* position: absolute; */
+    /* width: 100%; */
+}
+
+.process-step-image:after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 1px;
+    background: #f7b347;
+    /* top: 0; */
+    bottom: 130px;
+}
+
+.process-step-image {
+    position: relative;
+}
+.step-last .process-step-image:after {
+    width: 0;
+}
+.howtosell-text-block {
+    text-align: center;
+    border-bottom: 1px solid #000;
+    margin-bottom: 30px;
+    padding-bottom: 30px;
+    font-family: 'loraregular';
+    color: #000;
+}
+
+.howtosell-text-block h1 {
+    font-size: 26px;
+    color: #000;
+    padding-bottom: 20px;
+}
+
+.howtosell-text-block .artist-name {
+    font-size: 18px;
+    padding-bottom: 20px;
+}
+
+.howtosell-text-block .artist-name span {
+    color: #f9b439;
+    font-size: 24px;
+}
+.process-step p {
+    padding-top: 15px;
+}
+.how-to-sell-form-block {
+    background: #fcfcfc;
+    margin-top: 70px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+        padding-top: 40px;
+}
+.how-to-sell-form-block .consignee-register-form {
+    background: #fff;
+    /* margin-top: 50px !important; */
+}
+.consignee-register-form { width:70%; padding:40px; margin:0px auto;-webkit-box-shadow: 0px 0px 12px -1px rgba(153,153,153,.4);
+-moz-box-shadow: 0px 0px 12px -1px rgba(153,153,153,.4);
+box-shadow: 0px 0px 12px -1px rgba(153,153,153,.4);}
+.consignee-register-form label, .label-tag{  font-family: 'lorabold'; font-size:14px;margin-bottom: 8px;}
+.label-tag{ margin-top:30px;}
+.prvnc{font-size:18px}
+.consignee-register-form .form-control{ border-radius:0; box-shadow: inherit; border:solid 1px #e1e1e1;}
+.consignee-register-form h2{ font-size:24px; text-align:center; font-family: 'loraregular'; margin-bottom:20px; margin-top:30px;}
+.consignee-register-form .select-style {width:100%;}
+.consignee-register-form { margin-bottom:55px;}
+.consignee-register-form  .mobile .form-control  {width: 86%;float: right;height: 36px; position:relative; left:-1px;}
+.consignee-register-form  .mobile .select-style { width:14%}
+.radio-inline  input[type="radio"]{ margin-top:0px;}
+.consignee-register-form  .bidNow{margin-top: 15px; }
+@media(max-width:800px){
+.consignee-register-form { width:80%;}
+.consignee-register-form  .mobile .form-control  {width: 75%;}
+.consignee-register-form  .mobile .select-style { width:25%}
+}
+
+@media(max-width:680px){
+.search-consignee-content{ padding:10px 0px;}
+.consignee-register-form { width: 100%;padding: 30px 20px;}
+.serch-consignee,.serch-consignee  span.artist-slt, .serch-consignee  span.artst-decrb {font-size: 16px;}
+.consignee-register-form h2 {font-size: 17px;}
+.serch-consignee { padding-bottom: 15px;}
+}
+
+@media(max-width:400px){
+.consignee-register-form  .mobile .form-control  {width: 65%;}
+.consignee-register-form  .mobile .select-style { width:35%}
+.consignee-register-form label, .label-tag { font-size: 12px;}
+}
+
+
+@media(max-width: 414px){
+
+.process-step-image {
+    position: relative;
+    width: 42%;
+    float: left;
+    margin-bottom: 35px;
+}
+.process-step {
+    width: 100%;
+}
+.process-step-image img {
+    /* max-width: 100%; */
+    height: auto;
+    display: block;
+    width: 100%;
+}
+.process-step-image:after {
+    content: "";
+    position: absolute;
+    width: 1px;
+    height: 100%;
+    background: #f7b347;
+    top: 100%;
+    bottom: 0;
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*how to sell css end*/
+
+@media screen and (max-width: 1100px)  and (min-width:980px)
+{
+.thumbnails li img {
+   width: auto;
+   height: 40px;
+}
+.thumbnails li {
+height: 41px;
+}
+.thumbnails .slick-prev {
+   background: url(../images/spriteIcons.png) -2px -1484px no-repeat;
+height:40px;
+ 
+}
+.thumbnails .slick-prev {
+   background: url(../images/spriteIcons.png) -2px -1484px no-repeat;
+height:40px;
+ 
+}
+.thumbnails .slick-next {
+   background: url(../images/spriteIcons.png) -2px -1394px no-repeat;
+height:40px;
+  }
+  .lotDetailPrice {
+   float: left;
+   padding-top: 20px;
+   width: 100%;
+}
+.lotLinks{ width:100%}
+.AbsRhtBtmBox {
+   position: absolute;
+   bottom: 12px;
+   right: 30px;
+   width: 41%;
+   text-align: right;
+   padding-right: 5px;
+}
+.lotLinks {
+     padding-bottom: 15px;
+}
+.credit_amount {
+    text-align:left;
+}
+}
+@media(min-width: 560px)and (max-width: 767px){
+	.lotDetailPrice {
+    width: 40%;
+}
+.AbsRhtBtmBox {
+    width: 38%;
+}
+}
+@media screen and (max-width: 540px){
+.lotDetailPrice, .lotLinks {
+    width: 100%;
+}
+.lotImg {
+    width: 100%;
+        margin-top: 30px;
+  
+}
+.lotDetail {
+    width: 100%;
+}
+.my-auction-export .nonExpoLink {
+    position: relative;
+    bottom: 0;
+    right: 0;
+    margin-top: 10px;
+}
+.lotDetail.my-auction-export + .lotLinks {
+    text-align-last: left;
+}
+.paddle_of {
+    float: left;
+    padding-bottom: 7px;
+}
+}

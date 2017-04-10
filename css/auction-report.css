@@ -1,0 +1,97 @@
+.auction-report-result {}
+.auction-report-result .main_title h1 {font-family: 'lorabold';font-size: 24px;color: #333;border-bottom: 1px solid #333;padding: 0 0 12px;margin: 15px 0 25px;} 
+.auction-report-result .auction_tabs_nav {border: 0;text-align: center;}
+.auction-report-result .auction_tabs_nav li {float: none;display: inline-block;}
+.auction-report-result .auction_tabs_nav li a {border: 0;border-radius: 0;font-family: 'loraregular';font-size: 18px;color: #999;padding: 18px 35px;position: relative;}
+.auction-report-result .auction_tabs_nav li a:hover, .auction-report-result .auction_tabs_nav li.active a {background: transparent;color: #333;border: 0;}
+.auction-report-result .auction_tabs_nav li a:hover:after, .auction-report-result .auction_tabs_nav li.active a:after{content: "";width: 102px;height: 2px;background: #333;position: absolute;left: 0;right: 0;bottom:0px;margin: 0 auto;}
+
+.auction-report-result .auction_tabs_content {background: #f9f9f9;border: 1px solid #ebebeb;padding: 30px;margin-bottom: 50px;}
+
+.auction-report-result .auction_tabs_content .tab-content {max-width: 1030px;margin: 0 auto;}
+
+.auction-report-result .listItemListing {padding: 22px 0 0 0;}
+.auction-report-result .lotListing {border: 1px solid #e1e1e1;padding: 1.5%;margin-bottom: 8px;position: relative;background: #fff;}
+.auction-report-result .LotSliderList {width: 100%;}
+.auction-report-result .LotSliderList li {list-style: none;width: 100%;display: block;}
+.auction-report-result .lotImg {width: 30.673%;margin-right: 2.1153%;margin-bottom: 4px;}
+.auction-report-result .lotImg, .auction-report-result .lotDetail, .auction-report-result .lotLinks {float: left;}
+.auction-report-result .lotDetail {padding-bottom: 20px;}
+.auction-report-result .lotDetail, .auction-report-result .lotLinks {width: 67%;vertical-align: top;}
+.auction-report-result .lotDetailDescri {float: left;}
+.auction-report-result .lotDetailDescri h4 {color:#999999;font-size:12px;line-height:14px;font-family:'loraregular';font-style:normal;font-weight:normal;padding-bottom: 15px;}
+.auction-report-result .lotDetailDescri p.artistName {color: #333333;font-size: 18px;line-height: 16px;font-family: 'loraregular';font-style: normal;font-weight: normal;   padding-bottom: 10px;}
+.auction-report-result .lotDetailDescri p.artTitle {color: #333333;font-size: 14px;line-height: 16px;font-family: 'loraregular';font-style: normal;font-weight: normal;   padding-bottom: 4px;}
+.auction-report-result .lotDetailDescri p.artDesci {color: #333333;font-size: 14px;line-height: 19px;font-family: 'loraregular';font-style: normal;font-weight: normal;   padding-bottom: 4px;}
+.auction-report-result .lotDetailDescri p.artFrame {color: #333333;font-size: 14px; line-height: 16px;font-family: 'loraregular';font-style: normal;font-weight: normal;   padding-bottom: 2px;}
+
+.auction-report-result .LotSliderList {width: 100%;}
+.auction-report-result .LotSliderList li {list-style: none;width: 100%;display: block;}
+.auction-report-result ul.thumbnails {width: 30.673%;}
+.auction-report-result .thumbnails li {list-style: none;float: left;margin: 0 3px;width: 85px;height: 85px;float: left;background: #ebebeb;    text-align: center;}
+.auction-report-result .thumbnails .slick-prev, .auction-report-result .thumbnails .slick-next {width: 29px;height: 97px;border: none;text-indent: -9999px;position: absolute;top: 0;border: none;   background: #ccc;display: none !important;}
+.auction-report-result .thumbnails:hover .slick-prev, .auction-report-result .thumbnails:hover .slick-next {display: block !important;}
+.auction-report-result .thumbnails .slick-next {background: url(../images/spriteIcons.png) -2px -1371px no-repeat;right: 5px;}
+.auction-report-result .thumbnails .slick-prev {background: url(../images/spriteIcons.png) -2px -1461px no-repeat;left: -2px;z-index: 1;}
+.auction-report-result .thumbnails li img {margin-bottom: 3px;width: 85px;height: 83px;}
+.auction-report-result .thumbnails .slick-current {
+    background-image: url(../images/listpage/yellowBorder.gif);
+    background-position: bottom left;
+    background-repeat: repeat-x;
+    position: relative;
+    z-index: 3;
+}
+.auction-report-result .featuredLink {color: #feae36;font-size: 12px;line-height: 20px;font-family: 'catamaranregular';text-decoration: none;background: url(../images/spriteIcons.png) -27px -823px no-repeat;width: 17px;height: 19px;display: inline-block;float: right;}
+.auction-report-result .featuredLink:hover, .auction-report-result .featuredLink.activeStar {text-decoration: none;background-position: -1px -823px;}
+
+.auction-report-result .lotDetailPrice {
+    float: right;
+    padding-top: 20px;
+    width: 40%;
+}
+.auction-report-result .winningClose { background:#f9f9f9; padding:15px; margin-top:12px; text-align:center; height:102px; }
+.auction-report-result .winningClose p { color:#999999; font-size:12px; font-family: 'catamaranregular'; line-height:12px; font-weight:normal; font-style:normal; padding-bottom:15px; }
+.auction-report-result .winningClose p span { color:#666666; font-size:14px; line-height:14px;  font-family: 'loraregular';  font-weight:normal; font-style:normal; }
+.auction-report-result .winningClose h3 { color:#cccccc; text-transform:uppercase; letter-spacing:0px; }
+
+.auction-report-result .lotImg img, .auction-report-result .thumbnails li img {max-width: 100%;width: 100%;}
+.auction-report-result .winningClose .sold-icon {width: 49px;background: url(../images/spriteIcons.png) 0px -1566px no-repeat;height: 45px;display: block;margin: 0 auto;}
+/* pagination style starts */
+.auction-report-result  .btmPagin { color:#333333; }
+.auction-report-result  .btmPagin li { display:inline-block; float:left; padding-left:5px; padding-right:5px; font-family: 'catamaranregular'; font-size:18px; }
+.auction-report-result .btmPagin li a { background:none; border:none; color:#333333; text-decoration:underline; font-family: 'catamaranregular'; font-size:14px; }
+.auction-report-result .btmPagin li:hover a   { color:#333333; background:none; }
+.auction-report-result .btmPagin li.active a , .auction-report-result .btmPagin li.active:hover a { background:#ebebeb; color:#000;  }
+.auction-report-result .titlePagi { padding:10px 8px 0 0; }
+.auction-report-result .BtmLotsPagi .lotSele { float:right; margin-top:15px; }
+
+.auctionTimer:before, .auctionTimer:after, .listContent:before, .listContent:after, .listFilterTle:before, .listFilterTle:after, .listRtTle:before, .listRtTle:after, .listItemListing:before, .listItemListing:after, .lotListing:before, .lotListing:after, .lotLinkTop:before, .lotLinkTop:after, .tabLinks:before, .tabLinks:after, .bannerTextBox:before, bannerTextBox:after, .lotLinksLtBox:after, .lotLinksLtBox:before, .lotDetail:after, .lotDetail:before {
+    clear: both;
+    content: "";
+    display: table;
+}
+
+
+.total-logs {border-bottom: 1px solid #999999;}
+.lots-bg {background: #fff;position: relative;padding: 16px 0 16px 150px;text-align: center;max-width: 375px;margin-bottom: 25px;}
+.lots-bg h1 {font-size: 72px;color: #999;font-family: 'lorabold';}
+.lots-bg p {font-size: 18px;color: #333;font-family: 'loraregular';}
+.total-lots:before {background: url(../images/spriteicons-new.png) no-repeat -12px -185px;content: "";width: 84px;height: 71px;position: absolute;left: 50px;top: 28px;}
+.sold-lots:before {background: url(../images/spriteicons-new.png) no-repeat 0px -292px;content: "";width: 84px;height: 71px;position: absolute;left: 50px;top: 28px;}
+.percentage-lots:before {background: url(../images/spriteicons-new.png) no-repeat -14px -383px;content: "";width: 84px;height: 89px;position: absolute;left: 50px;top: 28px;}
+h3.top-lots {font-family: 'lorabold';font-size: 24px;color: #333;margin: 30px 0 17px;}
+
+
+@media screen and (max-width: 640px) {
+    .auction-report-result .auction_tabs_content {padding: 10px;}
+    .auction-report-result .lotImg, .auction-report-result .lotDetail, .auction-report-result .lotLinks, .auction-report-result .lotDetailPrice {width: 100%;}
+    .auction-report-result ul.thumbnails {display: none;}
+
+    .total-logs .pull-right {float: none!important}
+    .lots-bg {padding-left: 110px;}
+    .total-lots:before, .sold-lots:before, .percentage-lots:before {left: 18px;}
+    .total-lots:before, .sold-lots:before {top: 15px;}
+    .percentage-lots:before {top: 0px;}
+    .lots-bg h1 {font-size: 42px;}
+    .lots-bg p {font-size: 14px;}
+}

@@ -1,0 +1,920 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta charset = "utf-8">
+<meta http-equiv = "X-UA-Compatible" content = "IE = edge">
+<meta name = "viewport" content = "width = device-width, initial-scale = 1">
+<title> DAG MODERN </title>
+<link rel="stylesheet" type="text/css" href="font-awesome/css/font-awesome.min.css"/>
+<!-- Bootstrap style starts -->
+<link href="css/bootstrap.min.css" rel="stylesheet"/>
+<link href="css/bootstrap-theme.min.css" rel="stylesheet"/>
+<!-- Bootstrap style ends -->
+
+<link href="css/slick.css" rel="stylesheet"/>
+<link href="css/common.css" rel="stylesheet"/> 
+<link href="css/common-responsive.css" rel="stylesheet"/>
+<link href="css/home-responsive.css" rel="stylesheet"/>
+<link href="css/auction-report.css" rel="stylesheet">
+</head>
+
+<body>
+
+<!--HEADER Container starts -->
+<section class="logoNavigation">
+
+    <header class="container">
+        <div class="row">    
+            <nav class="navbar navbar-default col-lg-12 col-md-12 col-sm-12 col-xs-12">
+     
+                <div class="container-fluid">
+                  <div class="navbar-header col-lg-6 col-md-4 col-sm-2 logoCon">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                      <span class="sr-only">Toggle navigation</span>
+                      <span class="icon-bar"></span>
+                      <span class="icon-bar"></span>
+                      <span class="icon-bar"></span>
+                    </button>
+                    
+                    <div class="respProSign">             
+                       <div class="respSign"> <a href="javascript:;"> <span class="user"></span> </a> 
+                          <ul>
+                        <li><a href="#">Account</a></li>
+                        <li><a href="#">Profile/KYC</a></li>
+                        <li><a href="#">Address</a></li>
+                        <li><a href="#">Artist</a></li>
+                        <li><a href="#">Current Auction</a></li>
+                        <li><a href="#">Gallery</a></li>
+                        <li><a href="#">Purchase</a></li>
+                        <li class="logout"><a href="#">Logout</a></li>
+                      </ul>
+                       </div>
+                       <div class="respProfile"> <a href="javascript:;"> <span class="search"></span> </a> </div>
+                    </div>
+                    <a class="navbar-brand" href="javascript:;"> <img src="images/Logo.gif" alt="" title=""/> </a>
+                  </div>
+                  <div id="navbar" class="navbar-collapse collapse" aria-expanded="false" style="height: 1px;">
+                    <div class="nav navbar-nav navbar-right LoginRegis col-lg-2 col-md-3 col-sm-3"><a href="javascript:;"><span class="user"> Devanjan_roy123  </span> </a>
+
+                        <ul>
+                        <li><a href="#">Account</a></li>
+                        <li><a href="#">Profile/KYC</a></li>
+                        <li><a href="#">Address</a></li>
+                        <li><a href="#">Artist</a></li>
+                        <li><a href="#">Current Auction</a></li>
+                        <li><a href="#">Gallery</a></li>
+                        <li><a href="#">Purchase</a></li>
+                        <li class="logout"><a href="#">Logout</a></li>
+                      </ul>
+                    </div>       
+                    <ul class="nav navbar-nav  NavLinks">
+                      <!--             
+                      <li  class="dropdown"><a href="javascript:;" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">BUY/SELL<span class="caret"></span></a>
+                          <ul class="dropdown-menu">
+                            <li><a href="javascript:;">Action</a></li>
+                            <li><a href="javascript:;">Another action</a></li>
+                          </ul>              
+                      </li>
+                      -->
+                      <li><a href="javascript:;">BUY/SELL </a></li>                            
+                      <li class="searchTxt"><a href="javascript:;"> <span class="search"> SEARCH </span> </a>               
+                      </li>
+                      <li><a href="javascript:;">CONTACT</a></li>
+                    </ul>   
+                  </div><!--/.nav-collapse -->
+                </div>            
+               
+            </nav> 
+        </div>    
+    </header>
+    
+    <!-- Search Text starts -->
+    <div class="searchslide">
+        <div class="container">
+            <div class="row">
+                
+                <div id="custom-search-input" class="searchToggle col-lg-12">
+                    <div class="input-group col-md-12">
+                        <input type="text" class="  search-query form-control" placeholder="Search artist, Sale or Keyword" />
+                        <span class="input-group-btn">
+                            <button class="btn btn-danger" type="button">                             
+                            </button>
+                        </span>
+                    </div>
+               </div>
+                            
+            </div>
+       </div>
+    </div>
+    <!-- Search Text ends --> 
+            
+</section>
+<!-- HEADER Container ends -->
+
+<!-- Container starts -->
+<!-- Container starts -->
+<div class="container auction-report-result">
+	<div class="row">
+       
+        <ol class="breadcrumb col-lg-12 breadContent">
+          <li class="breadcrumb-item"><a href="#">Home</a></li>
+          <li class="breadcrumb-item active">21st Centn</li>
+        </ol>
+    </div>
+    <div class="row">
+    	<div class="main_title">
+    		<h1>Auction Report</h1>
+    	</div>
+    </div>
+    <div class="row">
+    	<div class="col-lg-12 col-md-12 col-sm-12">
+			  <ul id="tabs" class="nav nav-tabs auction_tabs_nav">
+            <li  class="active" ><a data-toggle="tab"  href="#auction-result">Auction Result</a></li>
+            <li><a  data-toggle="tab" href="#auction-summary">Auction Summary</a></li>
+            <li><a  data-toggle="tab" href="#my-lots" >My Lots</a></li>       
+        </ul>
+        <div class="auction_tabs_content">
+          <div class="tab-content">
+            <div id="auction-result" class="tab-pane fade in active">
+                <!-- Lot listing starts -->
+              <div class="listItemListing">
+              
+                <div class="lotListing">                 
+                 <ul class="LotSliderList">
+                 <li>
+                       <div class="lotImg"> <img src="images/listpage/lot1.jpg" alt="" title=""/> </div>
+                       <div class="lotDetail">
+                        <div class="lotDetailDescri">
+                         <h4> LOT # 1 </h4>
+                         <p class="artistName"> G. R. Santosh (1924 - 2016) </p>
+                         <p class="artTitle"> Untitled  </p>
+                         <p class="artDesci"> Acrylic and marker on box board, <br/> 1993   </p>                         
+                         <p class="artFrame"> 45.2 cm x 39.0 cm </p>
+                        </div>
+                        <div class="lotDetailPrice">
+                         <div class="winningClose">
+                              <span class="sold-icon"></span>
+                              <p>Winning Bid: <span> ` 35,00,000 | $ 52453</span> </p>
+                            </div>
+                        </div>                   
+                       </div>                       
+                       
+                  </li> 
+                 </ul> 
+                  <div class="AbsRhtBtmBox"> 
+                        <a href="javascript:;" class="featuredLink" > </a>                  
+                  </div>
+                 <div class="FeatureFlag"> </div>
+                </div>
+            
+                <div class="lotListing">
+                                 
+                 <ul class="LotSliderList slideList1">
+                 <li>
+                       <div class="lotImg"> <img src="images/listpage/lot3.jpg" alt="" title=""/> </div>
+                       <div class="lotDetail">
+                        <div class="lotDetailDescri">
+                         <h4> LOT # 1 </h4>
+                         <p class="artistName"> G. R. Santosh (1924 - 2016) </p>
+                         <p class="artTitle"> Untitled  </p>
+                         <p class="artDesci"> Acrylic and marker on box board, <br/> 1993   </p>                         
+                         <p class="artFrame"> 45.2 cm x 39.0 cm </p>
+                        </div>
+                        <div class="lotDetailPrice">
+                         <div class="winningClose">
+                              <span class="sold-icon"></span>
+                              <p>Winning Bid: <span> ` 35,00,000 | $ 52453</span> </p>
+                            </div>
+                        </div>                   
+                       </div>                       
+                        
+                  </li>
+          <li>
+                       <div class="lotImg"> <img src="images/listpage/lot1.jpg" alt="" title=""/> </div>
+                       <div class="lotDetail">
+                        <div class="lotDetailDescri">
+                         <h4> LOT # 1 </h4>
+                         <p class="artistName"> G. R. Santosh (1924 - 2016) </p>
+                         <p class="artTitle"> Untitled  </p>
+                         <p class="artDesci"> Acrylic and marker on box board, <br/> 1993   </p>                         
+                         <p class="artFrame"> 45.2 cm x 39.0 cm </p>
+                        </div>
+                        <div class="lotDetailPrice">
+                         <div class="winningClose">
+                              <span class="sold-icon"></span>
+                              <p>Winning Bid: <span> ` 35,00,000 | $ 52453</span> </p>
+                            </div>
+                        </div>                   
+                       </div>                       
+                       
+                  </li>
+                  <li>
+                       <div class="lotImg"> <img src="images/listpage/lot1.jpg" alt="" title=""/> </div>
+                       <div class="lotDetail">
+                        <div class="lotDetailDescri">
+                         <h4> LOT # 1 </h4>
+                         <p class="artistName"> G. R. Santosh (1924 - 2016) </p>
+                         <p class="artTitle"> Untitled  </p>
+                         <p class="artDesci"> Acrylic and marker on box board, <br/> 1993   </p>                         
+                         <p class="artFrame"> 45.2 cm x 39.0 cm </p>
+                        </div>
+                        <div class="lotDetailPrice">
+                         <div class="winningClose">
+                              <span class="sold-icon"></span>
+                              <p>Winning Bid: <span> ` 35,00,000 | $ 52453</span> </p>
+                            </div>
+                        </div>                   
+                       </div>                       
+                        
+                  </li>
+                  <li>
+                       <div class="lotImg"> <img src="images/listpage/lot1.jpg" alt="" title=""/> </div>
+                       <div class="lotDetail">
+                        <div class="lotDetailDescri">
+                         <h4> LOT # 1 </h4>
+                         <p class="artistName"> G. R. Santosh (1924 - 2016) </p>
+                         <p class="artTitle"> Untitled  </p>
+                         <p class="artDesci"> Acrylic and marker on box board, <br/> 1993   </p>                         
+                         <p class="artFrame"> 45.2 cm x 39.0 cm </p>
+                        </div>
+                        <div class="lotDetailPrice">
+                        <div class="winningClose">
+                              <span class="sold-icon"></span>
+                              <p>Winning Bid: <span> ` 35,00,000 | $ 52453</span> </p>
+                            </div>
+                        </div>                   
+                       </div>                       
+                        
+                  </li>
+                 </ul> 
+                     
+                 <ul class="thumbnails thumSlider1">
+                        <li><img src="images/listpage/lot3.jpg" /></li>
+                        <li><img src="images/listpage/smallLot1.jpg" /></li>
+                        <li><img src="images/listpage/smallLot2.jpg" /></li>
+                        <li><img src="images/listpage/lot2.jpg" /></li>                      
+                 </ul>
+                 
+                 <div class="AbsRhtBtmBox">
+                  <a href="javascript:;" class="featuredLink" > </a>                  
+                 </div>    
+              
+                </div>
+                <div class="lotListing">                 
+                 <ul class="LotSliderList">
+                 <li>
+                       <div class="lotImg"> <img src="images/listpage/lot1.jpg" alt="" title=""/> </div>
+                       <div class="lotDetail">
+                        <div class="lotDetailDescri">
+                         <h4> LOT # 1 </h4>
+                         <p class="artistName"> G. R. Santosh (1924 - 2016) </p>
+                         <p class="artTitle"> Untitled  </p>
+                         <p class="artDesci"> Acrylic and marker on box board, <br/> 1993   </p>                         
+                         <p class="artFrame"> 45.2 cm x 39.0 cm </p>
+                        </div>
+                        <div class="lotDetailPrice">
+                         <div class="winningClose">
+                              <span class="sold-icon"></span>
+                              <p>Winning Bid: <span> ` 35,00,000 | $ 52453</span> </p>
+                            </div>
+                        </div>                   
+                       </div>                       
+                       
+                  </li> 
+                 </ul> 
+                  <div class="AbsRhtBtmBox"> 
+                        <a href="javascript:;" class="featuredLink" > </a>                  
+                  </div>
+                 <div class="FeatureFlag"> </div>
+                </div>
+            
+                <div class="lotListing">
+                                 
+                 <ul class="LotSliderList slideList1">
+                 <li>
+                       <div class="lotImg"> <img src="images/listpage/lot3.jpg" alt="" title=""/> </div>
+                       <div class="lotDetail">
+                        <div class="lotDetailDescri">
+                         <h4> LOT # 1 </h4>
+                         <p class="artistName"> G. R. Santosh (1924 - 2016) </p>
+                         <p class="artTitle"> Untitled  </p>
+                         <p class="artDesci"> Acrylic and marker on box board, <br/> 1993   </p>                         
+                         <p class="artFrame"> 45.2 cm x 39.0 cm </p>
+                        </div>
+                        <div class="lotDetailPrice">
+                         <div class="winningClose">
+                              <span class="sold-icon"></span>
+                              <p>Winning Bid: <span> ` 35,00,000 | $ 52453</span> </p>
+                            </div>
+                        </div>                   
+                       </div>                       
+                        
+                  </li>
+          <li>
+                       <div class="lotImg"> <img src="images/listpage/lot1.jpg" alt="" title=""/> </div>
+                       <div class="lotDetail">
+                        <div class="lotDetailDescri">
+                         <h4> LOT # 1 </h4>
+                         <p class="artistName"> G. R. Santosh (1924 - 2016) </p>
+                         <p class="artTitle"> Untitled  </p>
+                         <p class="artDesci"> Acrylic and marker on box board, <br/> 1993   </p>                         
+                         <p class="artFrame"> 45.2 cm x 39.0 cm </p>
+                        </div>
+                        <div class="lotDetailPrice">
+                         <div class="winningClose">
+                              <span class="sold-icon"></span>
+                              <p>Winning Bid: <span> ` 35,00,000 | $ 52453</span> </p>
+                            </div>
+                        </div>                   
+                       </div>                       
+                       
+                  </li>
+                  <li>
+                       <div class="lotImg"> <img src="images/listpage/lot1.jpg" alt="" title=""/> </div>
+                       <div class="lotDetail">
+                        <div class="lotDetailDescri">
+                         <h4> LOT # 1 </h4>
+                         <p class="artistName"> G. R. Santosh (1924 - 2016) </p>
+                         <p class="artTitle"> Untitled  </p>
+                         <p class="artDesci"> Acrylic and marker on box board, <br/> 1993   </p>                         
+                         <p class="artFrame"> 45.2 cm x 39.0 cm </p>
+                        </div>
+                        <div class="lotDetailPrice">
+                         <div class="winningClose">
+                              <span class="sold-icon"></span>
+                              <p>Winning Bid: <span> ` 35,00,000 | $ 52453</span> </p>
+                            </div>
+                        </div>                   
+                       </div>                       
+                        
+                  </li>
+                  <li>
+                       <div class="lotImg"> <img src="images/listpage/lot1.jpg" alt="" title=""/> </div>
+                       <div class="lotDetail">
+                        <div class="lotDetailDescri">
+                         <h4> LOT # 1 </h4>
+                         <p class="artistName"> G. R. Santosh (1924 - 2016) </p>
+                         <p class="artTitle"> Untitled  </p>
+                         <p class="artDesci"> Acrylic and marker on box board, <br/> 1993   </p>                         
+                         <p class="artFrame"> 45.2 cm x 39.0 cm </p>
+                        </div>
+                        <div class="lotDetailPrice">
+                        <div class="winningClose">
+                              <span class="sold-icon"></span>
+                              <p>Winning Bid: <span> ` 35,00,000 | $ 52453</span> </p>
+                            </div>
+                        </div>                   
+                       </div>                       
+                        
+                  </li>
+                 </ul> 
+                     
+                 <ul class="thumbnails thumSlider1">
+                        <li><img src="images/listpage/lot3.jpg" /></li>
+                        <li><img src="images/listpage/smallLot1.jpg" /></li>
+                        <li><img src="images/listpage/smallLot2.jpg" /></li>
+                        <li><img src="images/listpage/lot2.jpg" /></li>                      
+                 </ul>
+                 
+                 <div class="AbsRhtBtmBox">
+                  <a href="javascript:;" class="featuredLink" > </a>                  
+                 </div>    
+              
+                </div>
+                <div class="lotListing">                 
+                 <ul class="LotSliderList">
+                 <li>
+                       <div class="lotImg"> <img src="images/listpage/lot1.jpg" alt="" title=""/> </div>
+                       <div class="lotDetail">
+                        <div class="lotDetailDescri">
+                         <h4> LOT # 1 </h4>
+                         <p class="artistName"> G. R. Santosh (1924 - 2016) </p>
+                         <p class="artTitle"> Untitled  </p>
+                         <p class="artDesci"> Acrylic and marker on box board, <br/> 1993   </p>                         
+                         <p class="artFrame"> 45.2 cm x 39.0 cm </p>
+                        </div>
+                        <div class="lotDetailPrice">
+                         <div class="winningClose">
+                              <span class="sold-icon"></span>
+                              <p>Winning Bid: <span> ` 35,00,000 | $ 52453</span> </p>
+                            </div>
+                        </div>                   
+                       </div>                       
+                       
+                  </li> 
+                 </ul> 
+                  <div class="AbsRhtBtmBox"> 
+                        <a href="javascript:;" class="featuredLink" > </a>                  
+                  </div>
+                 <div class="FeatureFlag"> </div>
+                </div>
+            
+                <div class="lotListing">
+                                 
+                 <ul class="LotSliderList slideList1">
+                 <li>
+                       <div class="lotImg"> <img src="images/listpage/lot3.jpg" alt="" title=""/> </div>
+                       <div class="lotDetail">
+                        <div class="lotDetailDescri">
+                         <h4> LOT # 1 </h4>
+                         <p class="artistName"> G. R. Santosh (1924 - 2016) </p>
+                         <p class="artTitle"> Untitled  </p>
+                         <p class="artDesci"> Acrylic and marker on box board, <br/> 1993   </p>                         
+                         <p class="artFrame"> 45.2 cm x 39.0 cm </p>
+                        </div>
+                        <div class="lotDetailPrice">
+                         <div class="winningClose">
+                              <span class="sold-icon"></span>
+                              <p>Winning Bid: <span> ` 35,00,000 | $ 52453</span> </p>
+                            </div>
+                        </div>                   
+                       </div>                       
+                        
+                  </li>
+          <li>
+                       <div class="lotImg"> <img src="images/listpage/lot1.jpg" alt="" title=""/> </div>
+                       <div class="lotDetail">
+                        <div class="lotDetailDescri">
+                         <h4> LOT # 1 </h4>
+                         <p class="artistName"> G. R. Santosh (1924 - 2016) </p>
+                         <p class="artTitle"> Untitled  </p>
+                         <p class="artDesci"> Acrylic and marker on box board, <br/> 1993   </p>                         
+                         <p class="artFrame"> 45.2 cm x 39.0 cm </p>
+                        </div>
+                        <div class="lotDetailPrice">
+                         <div class="winningClose">
+                              <span class="sold-icon"></span>
+                              <p>Winning Bid: <span> ` 35,00,000 | $ 52453</span> </p>
+                            </div>
+                        </div>                   
+                       </div>                       
+                       
+                  </li>
+                  <li>
+                       <div class="lotImg"> <img src="images/listpage/lot1.jpg" alt="" title=""/> </div>
+                       <div class="lotDetail">
+                        <div class="lotDetailDescri">
+                         <h4> LOT # 1 </h4>
+                         <p class="artistName"> G. R. Santosh (1924 - 2016) </p>
+                         <p class="artTitle"> Untitled  </p>
+                         <p class="artDesci"> Acrylic and marker on box board, <br/> 1993   </p>                         
+                         <p class="artFrame"> 45.2 cm x 39.0 cm </p>
+                        </div>
+                        <div class="lotDetailPrice">
+                         <div class="winningClose">
+                              <span class="sold-icon"></span>
+                              <p>Winning Bid: <span> ` 35,00,000 | $ 52453</span> </p>
+                            </div>
+                        </div>                   
+                       </div>                       
+                        
+                  </li>
+                  <li>
+                       <div class="lotImg"> <img src="images/listpage/lot1.jpg" alt="" title=""/> </div>
+                       <div class="lotDetail">
+                        <div class="lotDetailDescri">
+                         <h4> LOT # 1 </h4>
+                         <p class="artistName"> G. R. Santosh (1924 - 2016) </p>
+                         <p class="artTitle"> Untitled  </p>
+                         <p class="artDesci"> Acrylic and marker on box board, <br/> 1993   </p>                         
+                         <p class="artFrame"> 45.2 cm x 39.0 cm </p>
+                        </div>
+                        <div class="lotDetailPrice">
+                        <div class="winningClose">
+                              <span class="sold-icon"></span>
+                              <p>Winning Bid: <span> ` 35,00,000 | $ 52453</span> </p>
+                            </div>
+                        </div>                   
+                       </div>                       
+                        
+                  </li>
+                 </ul> 
+                     
+                 <ul class="thumbnails thumSlider1">
+                        <li><img src="images/listpage/lot3.jpg" /></li>
+                        <li><img src="images/listpage/smallLot1.jpg" /></li>
+                        <li><img src="images/listpage/smallLot2.jpg" /></li>
+                        <li><img src="images/listpage/lot2.jpg" /></li>                      
+                 </ul>
+                 
+                 <div class="AbsRhtBtmBox">
+                  <a href="javascript:;" class="featuredLink" > </a>                  
+                 </div>    
+              
+                </div>
+              </div>
+              <!-- Lot listing ends -->
+              <div class="BtmLotsPagi">  
+                <ul class="pagination btmPagin">
+                  <li class="titlePagi"> Lots : </li>
+                  <li><a href="#"> 1-10 </a></li>
+                  <li class="active"><a href="#"> 10-20 </a></li>
+                  <li><a href="#"> 20-30 </a></li>
+                  <li><a href="#"> 40-50 </a></li>
+                  <li><a href="#"> 50-60 </a></li>
+                  <li><a href="#"> 60-70 </a></li>
+                  <li><a href="#"> 70-80 </a></li>  
+                  <li><a href="#"> 80-90 </a></li>
+                  <li><a href="#"> 90-100 </a></li> 
+                </ul>
+                
+                <div class="lotSele"> 
+                  <select> 
+                    <option> Lots </option>
+                  </select>
+                </div>
+                
+             </div>
+            </div>
+            <div id="auction-summary" class="tab-pane fade in">
+            <div class="total-logs">
+                <div class="row">
+                  <div class="col-md-6 col-sm-6 pull-right">
+                    <img src="images/graph-img.png" alt="graph-img" class="img-responsive">
+                  </div>
+                  <div class="col-md-6 col-sm-6">
+                    <div class="lots-bg total-lots">
+                        <h1>70</h1>
+                        <p>Total Lots</p>
+                  </div>
+                  <div class="lots-bg sold-lots">
+                        <h1>65</h1>
+                        <p>Lots Sold</p>
+                  </div>
+                  <div class="lots-bg percentage-lots">
+                        <h1>92.8%</h1>
+                        <p>Percentage of Sold</p>
+                  </div>
+                </div>
+                 </div>
+              </div>
+              <h3 class="top-lots">Top 10 Lots</h3>
+              <div class="lotListing">                 
+                 <ul class="LotSliderList">
+                 <li>
+                       <div class="lotImg"> <img src="images/listpage/lot1.jpg" alt="" title=""/> </div>
+                       <div class="lotDetail">
+                        <div class="lotDetailDescri">
+                         <h4> LOT # 1 </h4>
+                         <p class="artistName"> G. R. Santosh (1924 - 2016) </p>
+                         <p class="artTitle"> Untitled  </p>
+                         <p class="artDesci"> Acrylic and marker on box board, <br/> 1993   </p>                         
+                         <p class="artFrame"> 45.2 cm x 39.0 cm </p>
+                        </div>
+                        <div class="lotDetailPrice">
+                         <div class="winningClose">
+                              <span class="sold-icon"></span>
+                              <p>Winning Bid: <span> ` 35,00,000 | $ 52453</span> </p>
+                            </div>
+                        </div>                   
+                       </div>                       
+                       
+                  </li> 
+                 </ul> 
+                  <div class="AbsRhtBtmBox"> 
+                        <a href="javascript:;" class="featuredLink" > </a>                  
+                  </div>
+                 <div class="FeatureFlag"> </div>
+                </div>
+            
+                <div class="lotListing">
+                                 
+                 <ul class="LotSliderList slideList1">
+                 <li>
+                       <div class="lotImg"> <img src="images/listpage/lot3.jpg" alt="" title=""/> </div>
+                       <div class="lotDetail">
+                        <div class="lotDetailDescri">
+                         <h4> LOT # 1 </h4>
+                         <p class="artistName"> G. R. Santosh (1924 - 2016) </p>
+                         <p class="artTitle"> Untitled  </p>
+                         <p class="artDesci"> Acrylic and marker on box board, <br/> 1993   </p>                         
+                         <p class="artFrame"> 45.2 cm x 39.0 cm </p>
+                        </div>
+                        <div class="lotDetailPrice">
+                         <div class="winningClose">
+                              <span class="sold-icon"></span>
+                              <p>Winning Bid: <span> ` 35,00,000 | $ 52453</span> </p>
+                            </div>
+                        </div>                   
+                       </div>                       
+                        
+                  </li>
+          <li>
+                       <div class="lotImg"> <img src="images/listpage/lot1.jpg" alt="" title=""/> </div>
+                       <div class="lotDetail">
+                        <div class="lotDetailDescri">
+                         <h4> LOT # 1 </h4>
+                         <p class="artistName"> G. R. Santosh (1924 - 2016) </p>
+                         <p class="artTitle"> Untitled  </p>
+                         <p class="artDesci"> Acrylic and marker on box board, <br/> 1993   </p>                         
+                         <p class="artFrame"> 45.2 cm x 39.0 cm </p>
+                        </div>
+                        <div class="lotDetailPrice">
+                         <div class="winningClose">
+                              <span class="sold-icon"></span>
+                              <p>Winning Bid: <span> ` 35,00,000 | $ 52453</span> </p>
+                            </div>
+                        </div>                   
+                       </div>                       
+                       
+                  </li>
+                  <li>
+                       <div class="lotImg"> <img src="images/listpage/lot1.jpg" alt="" title=""/> </div>
+                       <div class="lotDetail">
+                        <div class="lotDetailDescri">
+                         <h4> LOT # 1 </h4>
+                         <p class="artistName"> G. R. Santosh (1924 - 2016) </p>
+                         <p class="artTitle"> Untitled  </p>
+                         <p class="artDesci"> Acrylic and marker on box board, <br/> 1993   </p>                         
+                         <p class="artFrame"> 45.2 cm x 39.0 cm </p>
+                        </div>
+                        <div class="lotDetailPrice">
+                         <div class="winningClose">
+                              <span class="sold-icon"></span>
+                              <p>Winning Bid: <span> ` 35,00,000 | $ 52453</span> </p>
+                            </div>
+                        </div>                   
+                       </div>                       
+                        
+                  </li>
+                  <li>
+                       <div class="lotImg"> <img src="images/listpage/lot1.jpg" alt="" title=""/> </div>
+                       <div class="lotDetail">
+                        <div class="lotDetailDescri">
+                         <h4> LOT # 1 </h4>
+                         <p class="artistName"> G. R. Santosh (1924 - 2016) </p>
+                         <p class="artTitle"> Untitled  </p>
+                         <p class="artDesci"> Acrylic and marker on box board, <br/> 1993   </p>                         
+                         <p class="artFrame"> 45.2 cm x 39.0 cm </p>
+                        </div>
+                        <div class="lotDetailPrice">
+                        <div class="winningClose">
+                              <span class="sold-icon"></span>
+                              <p>Winning Bid: <span> ` 35,00,000 | $ 52453</span> </p>
+                            </div>
+                        </div>                   
+                       </div>                       
+                        
+                  </li>
+                 </ul> 
+                     
+                 <ul class="thumbnails thumSlider1">
+                        <li><img src="images/listpage/lot3.jpg" /></li>
+                        <li><img src="images/listpage/smallLot1.jpg" /></li>
+                        <li><img src="images/listpage/smallLot2.jpg" /></li>
+                        <li><img src="images/listpage/lot2.jpg" /></li>                      
+                 </ul>
+                 
+                 <div class="AbsRhtBtmBox">
+                  <a href="javascript:;" class="featuredLink" > </a>                  
+                 </div>    
+              
+                </div>
+
+            </div>
+            <div id="my-lots" class="tab-pane fade in">
+              <div class="lotListing">                 
+                 <ul class="LotSliderList">
+                 <li>
+                       <div class="lotImg"> <img src="images/listpage/lot1.jpg" alt="" title=""/> </div>
+                       <div class="lotDetail">
+                        <div class="lotDetailDescri">
+                         <h4> LOT # 1 </h4>
+                         <p class="artistName"> G. R. Santosh (1924 - 2016) </p>
+                         <p class="artTitle"> Untitled  </p>
+                         <p class="artDesci"> Acrylic and marker on box board, <br/> 1993   </p>                         
+                         <p class="artFrame"> 45.2 cm x 39.0 cm </p>
+                        </div>
+                        <div class="lotDetailPrice">
+                         <div class="winningClose">
+                              <span class="sold-icon"></span>
+                              <p>Winning Bid: <span> ` 35,00,000 | $ 52453</span> </p>
+                            </div>
+                        </div>                   
+                       </div>                       
+                       
+                  </li> 
+                 </ul> 
+                  <div class="AbsRhtBtmBox"> 
+                        <a href="javascript:;" class="featuredLink" > </a>                  
+                  </div>
+                 <div class="FeatureFlag"> </div>
+                </div>
+            
+                <div class="lotListing">
+                                 
+                 <ul class="LotSliderList slideList1">
+                 <li>
+                       <div class="lotImg"> <img src="images/listpage/lot3.jpg" alt="" title=""/> </div>
+                       <div class="lotDetail">
+                        <div class="lotDetailDescri">
+                         <h4> LOT # 1 </h4>
+                         <p class="artistName"> G. R. Santosh (1924 - 2016) </p>
+                         <p class="artTitle"> Untitled  </p>
+                         <p class="artDesci"> Acrylic and marker on box board, <br/> 1993   </p>                         
+                         <p class="artFrame"> 45.2 cm x 39.0 cm </p>
+                        </div>
+                        <div class="lotDetailPrice">
+                         <div class="winningClose">
+                              <span class="sold-icon"></span>
+                              <p>Winning Bid: <span> ` 35,00,000 | $ 52453</span> </p>
+                            </div>
+                        </div>                   
+                       </div>                       
+                        
+                  </li>
+          <li>
+                       <div class="lotImg"> <img src="images/listpage/lot1.jpg" alt="" title=""/> </div>
+                       <div class="lotDetail">
+                        <div class="lotDetailDescri">
+                         <h4> LOT # 1 </h4>
+                         <p class="artistName"> G. R. Santosh (1924 - 2016) </p>
+                         <p class="artTitle"> Untitled  </p>
+                         <p class="artDesci"> Acrylic and marker on box board, <br/> 1993   </p>                         
+                         <p class="artFrame"> 45.2 cm x 39.0 cm </p>
+                        </div>
+                        <div class="lotDetailPrice">
+                         <div class="winningClose">
+                              <span class="sold-icon"></span>
+                              <p>Winning Bid: <span> ` 35,00,000 | $ 52453</span> </p>
+                            </div>
+                        </div>                   
+                       </div>                       
+                       
+                  </li>
+                  <li>
+                       <div class="lotImg"> <img src="images/listpage/lot1.jpg" alt="" title=""/> </div>
+                       <div class="lotDetail">
+                        <div class="lotDetailDescri">
+                         <h4> LOT # 1 </h4>
+                         <p class="artistName"> G. R. Santosh (1924 - 2016) </p>
+                         <p class="artTitle"> Untitled  </p>
+                         <p class="artDesci"> Acrylic and marker on box board, <br/> 1993   </p>                         
+                         <p class="artFrame"> 45.2 cm x 39.0 cm </p>
+                        </div>
+                        <div class="lotDetailPrice">
+                         <div class="winningClose">
+                              <span class="sold-icon"></span>
+                              <p>Winning Bid: <span> ` 35,00,000 | $ 52453</span> </p>
+                            </div>
+                        </div>                   
+                       </div>                       
+                        
+                  </li>
+                  <li>
+                       <div class="lotImg"> <img src="images/listpage/lot1.jpg" alt="" title=""/> </div>
+                       <div class="lotDetail">
+                        <div class="lotDetailDescri">
+                         <h4> LOT # 1 </h4>
+                         <p class="artistName"> G. R. Santosh (1924 - 2016) </p>
+                         <p class="artTitle"> Untitled  </p>
+                         <p class="artDesci"> Acrylic and marker on box board, <br/> 1993   </p>                         
+                         <p class="artFrame"> 45.2 cm x 39.0 cm </p>
+                        </div>
+                        <div class="lotDetailPrice">
+                        <div class="winningClose">
+                              <span class="sold-icon"></span>
+                              <p>Winning Bid: <span> ` 35,00,000 | $ 52453</span> </p>
+                            </div>
+                        </div>                   
+                       </div>                       
+                        
+                  </li>
+                 </ul> 
+                     
+                 <ul class="thumbnails thumSlider1">
+                        <li><img src="images/listpage/lot3.jpg" /></li>
+                        <li><img src="images/listpage/smallLot1.jpg" /></li>
+                        <li><img src="images/listpage/smallLot2.jpg" /></li>
+                        <li><img src="images/listpage/lot2.jpg" /></li>                      
+                 </ul>
+                 
+                 <div class="AbsRhtBtmBox">
+                  <a href="javascript:;" class="featuredLink" > </a>                  
+                 </div>    
+              
+                </div>
+            </div>
+          </div>
+        </div>
+    	</div>
+    </div>
+</div>
+<!-- Container ends -->
+
+<!-- Footer Starts -->
+<section class="footerContainer">
+<footer class="container">
+<div class="row">
+
+    <div class="footerLinks">
+      <div class="col-lg-9 col-md-12 col-sm-12 col-xs-12 footerLtLinks">
+           <div class="about commonFootLink">
+                <div class="footLinkTitle"> About </div>
+                <ul>
+                <li> <a href="javascript:;">About Us</a> </li>
+                <li> <a href="javascript:;">Offices</a> </li>
+                <li> <a href="javascript:;">Press</a> </li>
+                <li> <a href="javascript:;">Careers</a> </li>
+                </ul>
+           </div>
+            <div class="More commonFootLink">
+                <div class="footLinkTitle"> MORE </div>
+                <ul>
+                <li> <a href="javascript:;">Contact</a> </li>
+                <li> <a href="javascript:;">Privacy</a> </li>
+                <li> <a href="javascript:;">Security</a> </li>
+                <li> <a href="javascript:;">Terms & Conditions</a> </li>
+                </ul>
+           </div>
+            <div class="Service commonFootLink">
+                <div class="footLinkTitle"> services </div>
+                <ul>
+                <li> <a href="javascript:;">Art Advisory</a> </li>
+                <li> <a href="javascript:;">Authentication and Certification</a> </li>
+                <li> <a href="javascript:;">Appraisal and Valuation</a> </li>
+                <li> <a href="javascript:;">Archiving & Documentation </a> </li>
+                </ul>
+           </div>
+      </div>  
+      <div class="col-lg-3 col-md-12 col-sm-12 col-xs-12  footerRtLinks">
+         <ul>
+            <li class="footLinkTitle"><a href="javascript:;"> How to Buy? </a></li>
+            <li class="footLinkTitle"> <a href="javascript:;">How to Sell?</a> </li>         
+         </ul>
+      </div>
+    </div>
+    
+    <div class="socialFooter col-lg-12">
+    <ul>
+     <li><a href="javascript:;"> <img src="images/faceBookIcon.png" alt="" title=""/> </a></li>
+     <li><a href="javascript:;"> <img src="images/twitterIcon.png" alt="" title=""/> </a></li>
+     <li><a href="javascript:;"> <img src="images/instagramIcon.png" alt="" title=""/> </a></li>
+    </ul>
+    <p> © 2017 Dag Modern. All rights reserved. </p>
+    </div>
+
+</div>
+</footer>
+</section>
+<!-- Footer ends -->
+
+<script type="text/javascript" src="js/jquery-1.10.2.min.js"> </script>
+<!-- Bootstrap Script starts -->
+<script type="text/javascript" src="js/bootstrap.min.js"> </script>
+<!-- Bootstrap Script ends -->
+<script type="text/javascript" src="js/slick.js"> </script>
+<script type="text/javascript" src="js/main.js"> </script>
+
+
+<script type="text/javascript">
+  $(document).ready(function(){
+      $('.respSign a').click(function(){
+        $('.respSign ul').slideToggle();
+      });
+  });
+
+  jQuery(document).ready(function(){ 
+ 
+   jQuery('#auction-result .slideList1, #my-lots .slideList1, #auction-summary .slideList1').slick({
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    arrows: false,
+    fade: false,
+    asNavFor: '.thumSlider1',
+   });
+  
+   jQuery('#auction-result .thumSlider1, #my-lots .thumSlider1, #auction-summary .thumSlider1 ').slick({
+    slidesToShow: 3,
+    slidesToScroll: 1,
+    asNavFor: '.slideList1',
+    dots: false,
+    arrows: true,
+    focusOnSelect: true
+   });   
+   
+   jQuery('#auction-result .slideList2, .#my-lots .slideList2, #auction-summary .slideList2 ').slick({
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    arrows: false,
+    fade: false,
+    asNavFor: '.thumSlider2',
+   });
+  
+   jQuery('#auction-result .thumSlider2, #my-lots .thumSlider2, #auction-summary .thumSlider2 ').slick({
+    slidesToShow: 3,
+    slidesToScroll: 1,
+    asNavFor: '.slideList2',
+    dots: false,
+    arrows: true,
+    focusOnSelect: true
+   });  
+ 
+})
+ 
+
+
+</script>
+
+</body>
+</html>

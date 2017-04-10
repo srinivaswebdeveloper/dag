@@ -1,0 +1,293 @@
+/********************************************************** Reset style starts **************************************************/
+html, body, div, span, object, iframe,h1, h2, h3, h4, h5, h6, p, blockquote, pre,abbr, address, cite, code,del, dfn, em, img, ins, kbd, q, samp,small, strong, sub, sup, var,b, i,dl, dt, dd, ol, ul, li,fieldset, form, label, legend,table, caption, tbody, tfoot, thead, tr, th, td,article, aside, canvas, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary,time, mark, audio, video { margin:0; padding:0; border:0; outline:0; font-size:100%; vertical-align:baseline; background:transparent;}
+body {line-height:1; outline:0;}
+article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section { display:block;}
+nav ul { list-style:none;}
+blockquote, q { quotes:none;}
+blockquote:before, blockquote:after,q:before, q:after { content:''; content:none;}
+a { margin:0; padding:0; font-size:100%; vertical-align:baseline; outline:0; background:transparent;}
+
+/* change colours to suit your needs */
+ins { background-color:#ff9; color:#000; text-decoration:none;}
+
+/* change colours to suit your needs */
+mark { background-color:#ff9; color:#000; font-style:italic; font-weight:bold;}
+del { text-decoration:line-through;}
+abbr[title], dfn[title] { border-bottom:1px dotted; cursor:help;}
+table { border-collapse:collapse; border-spacing:0;}
+/* change border colour to suit your needs */
+hr { display:block; height:1px; border:0; border-top:1px solid #cccccc; margin:1em 0; padding:0;}
+input, select { vertical-align:middle; }
+/*****************************************************  Reset style ends *******************************************************/
+
+/************************************************** Custom font style starts ***************************************************/
+@font-face { font-family: 'crimson_textbold'; src: url('../font/crimsontext-bold-webfont.woff2') format('woff2'), url('../font/crimsontext-bold-webfont.woff') format('woff'); font-weight: normal; font-style: normal;}
+@font-face { font-family: 'crimson_textroman'; src: url('../font/crimsontext-roman-webfont.woff2') format('woff2'), url('../font/crimsontext-roman-webfont.woff') format('woff'); font-weight: normal; font-style: normal;}
+@font-face { font-family: 'crimson_textsemibold'; src: url('../font/crimsontext-semibold-webfont.woff2') format('woff2'), url('../font/crimsontext-semibold-webfont.woff') format('woff'); font-weight: normal; font-style: normal;}
+@font-face { font-family: 'montserratlight'; src: url('../font/montserrat-light-webfont.woff2') format('woff2'), url('../font/montserrat-light-webfont.woff') format('woff');  font-weight: normal; font-style: normal;}
+@font-face { font-family: 'montserratregular'; src: url('../font/montserrat-regular-webfont.woff2') format('woff2'),  url('../font/montserrat-regular-webfont.woff') format('woff'); font-weight: normal; font-style: normal;}
+@font-face { font-family: 'crimson_textitalic'; src: url('../font/crimsontext-italic-webfont.woff2') format('woff2'),  url('../font/crimsontext-italic-webfont.woff') format('woff');font-weight: normal; font-style: normal; }
+
+@font-face { font-family: 'lorabold';src: url('../font/lora-bold-webfont.woff2') format('woff2'), url('../font/lora-bold-webfont.woff') format('woff');font-weight: normal; font-style: normal;}
+@font-face { font-family: 'lorabold_italic'; src: url('../font/lora-bolditalic-webfont.woff2') format('woff2'), url('../font/lora-bolditalic-webfont.woff') format('woff'); font-weight: normal;font-style: normal;}
+@font-face { font-family: 'loraitalic'; src: url('../font/lora-italic-webfont.woff2') format('woff2'), url('../font/lora-italic-webfont.woff') format('woff'); font-weight: normal; font-style: normal; }
+@font-face { font-family: 'loraregular'; src: url('../font/lora-regular-webfont.woff2') format('woff2'), url('../font/lora-regular-webfont.woff') format('woff'); font-weight: normal; font-style: normal;}
+
+@font-face { font-family: 'catamaranblack'; src: url('../font/catamaran-black-webfont.woff2') format('woff2'), url('../font/catamaran-black-webfont.woff') format('woff'); font-weight: normal; font-style: normal; }
+@font-face { font-family: 'catamaranbold'; src: url('../font/catamaran-bold-webfont.woff2') format('woff2'), url('../font/catamaran-bold-webfont.woff') format('woff'); font-weight: normal; font-style: normal; }
+@font-face { font-family: 'catamaranextrabold'; src: url('../font/catamaran-extrabold-webfont.woff2') format('woff2'), url('../font/catamaran-extrabold-webfont.woff') format('woff');font-weight: normal; font-style: normal}
+@font-face { font-family: 'catamaranextralight'; src: url('../font/catamaran-extralight-webfont.woff2') format('woff2'), url('../font/catamaran-extralight-webfont.woff') format('woff'); font-weight: normal; font-style: normal;}
+@font-face { font-family: 'catamaranlight'; src: url('../font/catamaran-light-webfont.woff2') format('woff2'), url('../font/catamaran-light-webfont.woff') format('woff');font-weight: normal;font-style: normal;}
+@font-face { font-family: 'catamaranmedium'; src: url('../font/catamaran-medium-webfont.woff2') format('woff2'), url('../font/catamaran-medium-webfont.woff') format('woff');font-weight: normal;font-style: normal;}
+@font-face { font-family: 'catamaranregular'; src: url('../font/catamaran-regular-webfont.woff2') format('woff2'), url('../font/catamaran-regular-webfont.woff') format('woff');font-weight: normal; font-style: normal;}
+@font-face { font-family: 'catamaransemibold';src: url('../font/catamaran-semibold-webfont.woff2') format('woff2'), url('../font/catamaran-semibold-webfont.woff') format('woff'); font-weight: normal; font-style: normal;}
+@font-face { font-family: 'catamaranthin'; src: url('../font/catamaran-thin-webfont.woff2') format('woff2'), url('../font/catamaran-thin-webfont.woff') format('woff'); font-weight: normal; font-style: normal;}
+
+@font-face {	font-family: 'HelveticaNeue';src:url('../font/HelveticaNeue.woff') format('woff');	font-weight: normal;	font-style: normal;}
+
+
+
+/************************************************** Custom font style ends ***************************************************/
+
+/************************************************** CLEAR style Starts ***************************************************/
+.footerLinks:before , .footerLinks:after { clear:both; content:""; display:table; }
+/************************************************** CLEAR style ends ***************************************************/
+
+/************************************************** Main style starts **************************************************/
+.container { width:1245px; }
+
+.logoNavigation { border-bottom: 1px solid #ccc; }
+.logoNavigation .navbar { background:none; background-color: none; border: none; background-image:none; box-shadow:none; border-radius: 0px; margin-bottom: 0px; padding:0px; margin:0px; }
+/* .logoNavigation .navbar .container-fluid  { padding:0px; margin:0px;  } */
+
+.logoCon { padding:20px 0 0 0; }
+.logoCon .navbar-toggle { border-color:transparent; margin-right:0px; padding:9px 5px; }
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover { background:none;  }
+.navbar-default .navbar-toggle .icon-bar { background-color:#404040; }
+
+.respProSign { display:none; width:95px; float:right; }
+.respProfile  , .respSign { display:inline-block; padding-top:15px;  }
+.respProfile a , .respSign a { color:#f9b439; padding:0 4px; display:block; }
+.respProfile span.search , .respSign span.user { background:url(../images/spriteIcons.png) left top no-repeat; display:block; width:32px; height:20px;  }
+.respProfile span.search { background-position:5px 2px; }
+.respSign span.user  { background-position:5px -43px; }
+
+.logoCon .navbar-brand { height:auto; padding:0px; margin:0px; }
+.NavLinks { padding:25px 20px 12px 0; float:right;   }
+.NavLinks li { padding:0px; margin:0px; }
+.NavLinks li a , .NavLinks.navbar-nav > a , .navbar-default .navbar-nav > li > a { font-size:13px; line-height:14px; font-family: 'catamaranregular'; color:#282828 ; font-weight:normal; padding-left:24px; padding-right:24px; }
+.NavLinks li .fa-search { color:#f9b439; padding-right:9px;}
+.NavLinks li.active { background:none; }
+.NavLinks li.active a , .NavLinks li:hover a { color:#f9b439; box-shadow: 0px; background-image: none; }
+.NavLinks.navbar-nav > .active > a, .NavLinks.navbar-nav > .open > a , .NavLinks.navbar-nav > .active > a, .NavLinks.navbar-nav > .active > a:focus, .NavLinks.navbar-nav > .active > a:hover {color:#f9b439;background:none;box-shadow:none;background-image:none; }
+.NavLinks.navbar-nav > li > a:focus, .NavLinks.navbar-nav > li > a:hover { color:#f9b439; }
+.NavLinks li.LoginRegis a { color:#f9b439; }
+.logoNavigation .navbar { padding-left:0px; padding-right:0px; }
+
+.searchTxt span.search , .LoginRegis span.user { background:url(../images/spriteIcons.png) left top no-repeat; padding-left:26px; }
+.searchTxt span.search { background-position:-3px 6px; }
+.LoginRegis span.user  { background-position:-1px -40px; }
+ 
+.searchslide { width:100%; padding:20px 0; /*position:absolute; bottom:-46px; left:0px;*/ background:#f9f9f9; display:none; }
+.searchslide .searchToggle {  border-bottom:2px solid #8a8a8a; }
+.searchslide .searchToggle input { width:90%; background:none; border:none; width:95%; font-family: 'catamaranregular'; font-weight:normal; color:#939393; font-size:14px; line-height:18px; padding:0px; margin:0px; box-shadow:unset; }
+.searchslide .searchToggle button.btn { width:9%; background:url(../images/spriteIcons.png) left top no-repeat; border:none; width:3%; height:25px; box-shadow:unset; text-shadow:unset; }
+.banner.removeTopPadding { padding-top:0px; }
+.logoNavigation.removeBorder { border-bottom:0px; }
+
+.LoginRegis { border-right:1px solid #e1e1e1; border-left:1px solid #e1e1e1; padding:26px 0 14px 0; margin-right:-30px; float:right; }
+.LoginRegis a { color:#f9b439; font-size:14px; line-height:11px; font-family: 'catamaranregular'; text-decoration:none; font-weight:normal; padding:15px; text-align:center; display:block; }
+
+ 
+/* footer container starts */
+.footerContainer { background:#282425; padding:55px 0 45px 0; }
+
+.footerLinks { border-bottom:1px solid #999999; }
+
+.footerLtLinks { padding-bottom:15px; }
+.footerLtLinks .about , .footerLtLinks .More , .footerLtLinks .Service {display:inline-block; padding:0px; margin:0px; width:25%; }
+.footerLtLinks .More { width:30%}
+.footerLtLinks .Service { width:40%;}
+
+.footerLtLinks ul , .footerRtLinks ul { padding:0px; margin:0px; width:100%; }
+.footerLtLinks ul li { list-style:none; display:block; padding-bottom:25px; }
+.footerLtLinks ul li a { color:#999999;  font-size:13px; line-height:18px; font-family: 'catamaranregular'; text-decoration:none; }
+.footLinkTitle{ color:#fdb136; font-family:'loraregular'; text-transform:uppercase; font-size:16px; line-height:24px; padding-bottom:25px; }
+
+.footerRtLinks {}
+.footerRtLinks ul li{ ist-style:none; display:block; padding:25px 0; }
+.footerRtLinks ul li:first-child { border-bottom:1px solid #fff; }
+.footerRtLinks ul li a{ color:#fff; font-size:18px; line-height:35px; font-family:'loraregular'; font-weight:normal; text-decoration:none; text-transform: initial; }
+
+.socialFooter { width:100%; }
+.socialFooter ul { padding:35px 0 25px; width:100%; margin:0px; text-align:center; }
+.socialFooter ul li{ display:inline-block; list-style:none; padding:0 30px; }
+.socialFooter ul li a{}
+.socialFooter p { color:#999999; font-size:14px; font-family:'catamaranregular'; font-weight:normal; line-height:16px; text-align:center;  }
+/* footer container ends */
+
+/************************************************** Main style ends **************************************************/
+
+/************************************************* Common on all pages style starts *************************************************/
+
+/* Common Buttons style strats */
+.commonBtn { color:#999999; background:none; border:1px solid #999999; text-transform:uppercase; font-size:16px; line-height:16px; padding:12px 20px 15px 20px; font-family: 'catamaranregular'; letter-spacing:-0.1px; }
+
+button.calender , button.Catelogue{ position:relative; color:#999999; background:none; border:1px solid #999999; text-transform:uppercase; font-size:14px; line-height:16px; padding:12px 20px 15px 20px; margin-right:2%;  font-family: 'catamaranregular'; 
+ letter-spacing:-0.1px;}
+button.calender span , button.Catelogue span {  background:url(../images/spriteIcons.png) left top no-repeat; padding-left:33px; }
+button.calender span { background-position:6px  -98px; }
+button.Catelogue { margin-right:0px; }
+button.Catelogue span { background-position:6px -177px;  }
+
+button.Catelogue:hover , button.Catelogue.ActiveBtn , button.calender:hover  , button.calender.ActiveBtn , button.commonBtn.ActiveBtn  { color:#f8b530; border:1px solid #f8b530; }
+button.calender:hover span , button.calender.ActiveBtn span { background-position:6px -138px}
+button.Catelogue:hover span , button.Catelogue.ActiveBtn span { background-position:6px -217px;  }
+
+.AucResult , .AucAnalys { background:none;  }
+.AucResult {  margin-right:6px; }
+.bidLive { margin-right:0px; width:185px; }
+
+.bidNow { width:177px; background:#fdb140; color:#fff; color:#ffffff; font-size:16px; line-height:16px; border:none; }
+
+/* Common Buttons style ends */
+
+/* bread crumbs style starts */
+.breadContent { background-color:transparent;  border-radius: 0; padding:10px 0 27px 0; margin:0px; }
+.breadContent li {color:#fbb239; font-size:12px; line-height:12px; font-family:''; font-style:normal; font-weight:normal; font-family: 'catamaranregular'; }
+.breadcrumb > li + li:before { content:'>'; color:#252222; font-size:12px; line-height:12px; font-family: 'catamaranregular'; }
+.breadContent li.active{color:#fbb239;}
+.breadContent li a { color:#252222; font-size:12px; line-height:12px; font-family:''; font-style:normal; font-weight:normal; font-family: 'catamaranregular'; }
+/* bread crumbs style ends */
+
+/* T and C style starts */
+.tncLink {  }
+.tncLink a { color:#999999; font-size:16px; line-height:18px; font-family: 'crimson_textroman'; font-weight:normal; font-style:normal; text-decoration:underline; }
+/* T and C style ends */
+
+/* home and list common section style starts */
+.bannerTextBox { padding:0px 0 25px 0; border-bottom:1px solid #333333; }
+.banTxtLt { text-align:left; padding:0px; }
+.banTxtLt h2 { color:#000000; font-size:33.5px; line-height:35px; padding:0px 0 20px 0px;  font-family: 'loraregular'; margin:0px; letter-spacing:-1px; position:relative; display:inline-block; }
+.banTxtLt h2 sup { color:#fdb140; font-size:14px; line-height:14px; text-transform:uppercase; position:absolute; top:1px; right:-33px; }
+.banTxtLt p { color:#999999; font-size:16px; line-height:16px; letter-spacing:0.1px; padding:0px; margin:0px; font-family: 'catamaranregular';}
+.banTxtRt { text-align:right; padding:0px; font-family: 'catamaranregular'; }
+.banTxtRt h4 { color:#333333; font-size:16px; line-height:18px; padding:0px 0 15px 0px; font-family: 'catamaranregular'; margin:0px;  }
+.banTxtRt h4 a { color:#fdb140; font-size:16px; text-decoration:none; }
+
+.bannerTextBox .artistName { padding:10px 0 10px 0; margin:0px; color:#666666; font-size:14px; line-height:18px; font-family: 'loraregular'; text-align:right; }
+/* home and list common section style ends */
+
+/* custome Select style starts */
+.select-style {padding: 0;margin: 0;border: 1px solid #e1e1e1;width:222px; overflow: hidden; text-align: left;background-color: #fff; display: inline-block;background: white url(../images/spriteIcons.png) 113% -1011px no-repeat;}
+.select-style select {padding: 0 8px;width: 100%; border: none; box-shadow: none; background-color: transparent; background-image: none; -webkit-appearance: none; -moz-appearance: none; appearance: none;color:#999999; font-size:14px; line-height:24px; font-family: 'catamaranregular'; font-style:normal; font-weight:normal; height:34px; }
+.select-style select:focus { outline: none;}
+.select-style option { padding: 5px 0 5px 10px; display:block; line-height:20px; }
+
+
+.lotSele {padding: 0;margin: 0;border: 1px solid #e1e1e1;width:102px; overflow: hidden; text-align: left;background-color: #fff; display: inline-block;background: white url(../images/spriteIcons.png) 113% -1011px no-repeat;}
+.lotSele select {padding: 0 8px;width: 100%; border: none; box-shadow: none; background-color: transparent; background-image: none; -webkit-appearance: none; -moz-appearance: none; appearance: none;color:#999999; font-size:14px; line-height:24px; font-family: 'catamaranregular'; font-style:normal; font-weight:normal; height:39px; }
+.lotSele select:focus { outline: none;}
+.lotSele option { padding: 5px 0 5px 10px; display:block; line-height:20px; }
+
+/* custome Select style ends */
+
+
+/*mscrollbar css defult css dont touch*/
+ .mCustomScrollbar{-ms-touch-action:none;touch-action:none}
+ .mCustomScrollbar.mCS_no_scrollbar{-ms-touch-action:auto;touch-action:auto}
+ .mCustomScrollBox{position:relative;overflow:hidden;height:100%;max-width:100%;outline:none;direction:ltr}
+ .mCSB_container{overflow:hidden;width:auto;height:auto}
+ .mCSB_inside > .mCSB_container{margin-right:25px}
+ .mCSB_container.mCS_no_scrollbar_y.mCS_y_hidden{margin-right:0}
+ .mCS-dir-rtl > .mCSB_inside > .mCSB_container{margin-right:0;margin-left:30px}
+ .mCS-dir-rtl > .mCSB_inside > .mCSB_container.mCS_no_scrollbar_y.mCS_y_hidden{margin-left:0}
+ .mCSB_scrollTools{position:absolute;width:20px;height:auto;left:auto;top:0;right:-8px;bottom:0}
+ .mCSB_outside +  .mCSB_scrollTools{right:-26px}
+ .mCS-dir-rtl > .mCSB_inside > .mCSB_scrollTools,.mCS-dir-rtl > .mCSB_outside + .mCSB_scrollTools{right:auto;left:0}
+ .mCS-dir-rtl > .mCSB_outside + .mCSB_scrollTools{left:-26px}
+ .mCSB_scrollTools .mCSB_draggerContainer{position:absolute;top:0;left:0;bottom:0;right:0;height:auto}
+ .mCSB_scrollTools a + .mCSB_draggerContainer{margin:20px 0}
+ .mCSB_scrollTools .mCSB_draggerRail{width:2px;height:100%;margin:0 auto;-webkit-border-radius:0px;-moz-border-radius:0px;border-radius:0px}
+ .mCSB_scrollTools .mCSB_dragger{cursor:pointer;width:100%;height:30px;z-index:1}
+ .mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar{position:relative;width:4px;height:100%;margin:0 auto;-webkit-border-radius:0;-moz-border-radius:0;border-radius:0;text-align:center; border-radius:0px; -moz-border-radius:0px; -webkit-border-radius:0px;}
+/* Editable CSS */
+ .content {overflow:auto;position:relative;}
+.showcase .content {float:left;width:100%;max-height:190px}
+/*.showcase #content-1.content {height:200px}*/
+ .mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar{background-color:#bbbbbb;}
+ .mCSB_scrollTools .mCSB_draggerRail{background-color:#d5d5d5}
+ /*mscrollbar css defult cssends  dont touch*/
+
+
+/************************************************* Common on all pages style Ends *************************************************/
+/* login and register page styles */
+
+.main_title {}
+.main_title h1 {font-family: 'loraregular';font-size: 30px;color: #000;border-bottom: 1px solid #333;padding: 0 0 21px;margin: 15px 0 25px;}
+.login-register {}
+.register-rt {border-left: 1px solid #ccc;margin-bottom: 60px;}
+.register-rt form{float: right;}
+.login-register .col-lg-6{padding: 0;}
+.login-register form {width: 80%;}
+.login-register form label,.registration-page form label {color: #282224;font-size: 14px;font-family: 'loraregular';font-weight: normal;padding-bottom: 10px;}
+.login-register form input, .login-register form select,.registration-page form input, .registration-page form select,.registration-page form  textarea{border-radius: 0;border-color: #e1e1e1;margin-bottom: 10px;box-shadow: none;font-size: 15px;font-family: 'catamaranregular';}
+
+.login-register form input:focus, .login-register form .mobile select:focus {box-shadow: none;border-color: #666;}
+.login-register .select-style ,.registration-page .select-style{float: left;width: 10%;background-position: 802% -1009px;}
+.login-register form .mobile select,.registration-page form .mobile select {display: inline-block;float: left;width: 100%;padding: 2px;border-right: 0;color: #999;margin-bottom: 0;height: 32px;}
+.login-register form .mobile input,.registration-page form .mobile input {display: inline-block;float: left;width: 90%;}
+.login-register form .checkbox label {font-family: 'catamaranregular';font-size: 16px;}
+.login-register form .checkbox a {font-family: 'catamaranregular';font-size: 15px;float: right;color: #fdb140;}
+.login-register form .checkbox.by {float: left;margin-top: 12px;}
+.login-register form .checkbox.by label {color: #999;}
+.login-register form p {color: #333;font-family: 'loraregular';font-size: 15px;margin: 20px 0;}
+.login-register form p a {color: #fdb140;}
+.register-rt .main_title {display: none;}
+
+
+
+
+/* dropdown */
+.LoginRegis {position: relative;}
+.respSign ul{left: 0;}
+.LoginRegis ul, .respSign ul {display: none;text-align: left;padding: 10px 0 0;position: absolute;background: #fff;top: 82px;width: 100%;z-index: 9;box-shadow: 0 5px 10px 0 #ccc;-moz-box-shadow:0 5px 10px 0 #ccc;-webkit-box-shadow:0 5px 10px 0 #ccc;}
+.LoginRegis:hover ul {display: block;}
+.LoginRegis ul li a, .respSign ul li a {text-align: left;padding: 15px 45px;display: block;color: #bbb9ba;font-size: 15px;}
+.LoginRegis ul li a:hover, .respSign ul li:hover {color:#f9b439 }
+.LoginRegis ul li.logout a, .respSign ul li.logout a {box-shadow: 0 -5px 5px -5px #ccc;padding-bottom: 20px;color: #999;font-size: 18px;position: relative;padding-left: 66px;}
+.LoginRegis ul li.logout a:before, .respSign ul li.logout a:before {content: "";background:url(../images/spriteIcons.png) left -1638px no-repeat;width: 14px;height: 16px;position: absolute;left: 45px;top: 16px;}
+
+
+
+
+/* contact us page */
+.reachus {margin-bottom: 50px;}
+.reachus-lt {padding-left: 0;padding-right: 20px;}
+.reachus-rt {padding-right: 0;padding-left: 20px;}
+.reachus h4 {font-family: 'loraregular';font-size: 18px;color: #333;margin-bottom: 12px;}
+.reachus iframe {margin-top: 45px;}
+.contact-box {background: #fbfaf6;padding: 40px 24px;font-family: 'catamaranregular';font-size: 16px;line-height: 22px;}
+.contact-box h3 {font-size: 18px;color: #000;font-weight: bold;margin-bottom: 5px;}
+.contact-box p {font-size: 16px;padding: 15px 0;}
+.contact-box span {font-weight: bold;}
+.contact-box p a {color: #333}  
+.reachus .contact_tabs_nav {border:1px solid #ebebeb;margin-top: 25px;}
+.reachus .contact_tabs_nav li {margin-bottom: 0;}
+.reachus .contact_tabs_nav li a {border: 0;font-size: 18px;font-family: 'loraregular';border-radius: 0;color: #999;padding: 15px 14px;margin: 0 10px;}
+.reachus .contact_tabs_nav li a:hover, .reachus .contact_tabs_nav li.active a {background: transparent;color: #333;border: 0;border-bottom: 2px solid #333;}
+.reachus .tab-content {border:1px solid #ebebeb;border-top: 0;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

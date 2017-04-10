@@ -1,0 +1,252 @@
+.myartist-edit-page .my-account-left{ min-height:840px;}
+
+.myacnt-artist-info {
+	padding: 0px 25px 25px;
+	float:left;
+	font-size: 14px;
+	display:block;
+}
+.myartist-edit .pagetitle { margin-bottom:25px;}
+
+.myacnt-artist-info .media-box {
+	background:#ffffff;
+	padding: 25px;
+	float:left;
+	-webkit-box-shadow: 0px 6px 3px -3px rgba(0, 0, 0, 0.15);
+	-moz-box-shadow: 0px 6px 3px -3px rgba(0, 0, 0, 0.15);
+	box-shadow: 0px 6px 3px -3px rgba(0, 0, 0, 0.15);
+}
+.myacnt-artist-info .media-left-box {
+	width:26%;
+	float:left;
+	position:relative;
+}
+.myacnt-artist-info .media-body-box {
+	float:right;
+	width:70%;
+	position:relative;
+}
+.myacnt-artist-info .media-body-box p {
+	line-height:20px;
+}
+.myacnt-artist-info .media-body-box h2 {
+	font-size: 20px;
+	font-family: 'lorabold';
+	display: inline-block;
+	vertical-align: middle;
+}
+.myacnt-artist-info .media-left-box img {
+	max-width:100%;
+}
+.title-info, .in-row {
+	clear:both;
+	width:100%;
+	margin-top:15px;
+	float:left;
+}
+.title-info {
+	border-bottom:solid 1px #dfdfdf;
+	padding-bottom:20px;
+	margin-bottom:10px;
+	clear:both;
+}
+.title-info:after, .title-info:before, .in-row:after, .in-row:before {
+	clear:both;
+}
+.title-info .fav-star-section {
+	float:right;
+}
+.fav-star-section span.text {
+	color:#666;
+	font-size:13px;
+	margin-left:4px;
+	vertical-align:middle
+}
+.fav-star-section:hover, .fav-star-section:focus {
+	text-decoration:none;
+}
+.title-info {
+}
+.fav-star-section .favrtstar, .fav-star-section:hover .activeStar {
+	color: #feae36;
+	font-size: 12px;
+	line-height: 20px;
+	font-family: 'catamaranregular';
+	text-decoration: none;
+	background: url(../images/spriteIcons.png) -27px -825px no-repeat;
+	width: 17px;
+	height: 19px;
+	display: inline-block;
+	vertical-align:middle
+}
+.fav-star-section .activeStar {
+	text-decoration:none;
+	background-position:-1px -825px;
+}
+.arrow-ttle {
+	background: url(../images/art-arrows.png) 0px -183px no-repeat;
+	display:inline-block;
+	width:30px;
+	height:15px;
+	margin-left: 25px;
+}
+.artwrk-image {
+	height: 60px; /*can be anything*/
+	width: 60px; /*can be anything*/
+	display: inline-block;
+	vertical-align: top; /*not required*/
+	background:#ebebeb; /*not required*/
+	position: relative;
+	padding:3px;
+}
+.artwrk-image img {
+	max-height: 100%;
+	max-width: 100%;
+	width: auto;
+	height: auto;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	margin: auto;
+}
+/* everything below is not required */
+.artwrk-image span {
+	font-family: arial, sans-serif;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	text-align: center;
+	color: white;
+	background: rgba(0, 0, 0, 0.4);
+	font-size: 12px;
+}
+.artworks-slider {
+	max-width:100%;
+	padding:25px 40px 20px;
+	background:#f9f9f9;
+	text-align:center;
+	margin-top: 25px;
+	position:relative;
+}
+.artlot-number {
+	margin-top:5px;
+}
+.artworks-slider .slick-prev, .artworks-slider .slick-next {
+	width:26px;
+	height:32px;
+	border:none;
+	text-indent:-9999px;
+	position:absolute;
+	top:0;
+	border:none;
+	background:#ccc;
+	top: 35%;
+}
+.artworks-slider .slick-prev {
+	background:url(../images/art-arrows.png) 1px -107px no-repeat;
+	left:5px;
+	z-index:1;
+}
+.artworks-slider .slick-next {
+	background:url(../images/art-arrows.png) -6px -138px no-repeat;
+	right:5px;
+	z-index:1;
+}
+.slider-holder{ float:left;   max-width:500px; position:relative}
+@media(max-width:1026px) {
+ .arrow-ttle {
+margin-left: 5px;
+}
+ .artwrk-image {
+ height: 35px; /*can be anything*/
+ width: 35px;
+}
+.slider-holder{max-width:340px;}
+.myacnt-artist-info .media-body-box h2 {
+    font-size: 16px;
+}
+.arrow-ttle {
+    background: url(../images/art-arrows.png) 0px -181px no-repeat;
+}
+}
+ @media(max-width:768px) {
+	 .myartist-edit-page .my-account-left{ min-height:auto;}
+ .my-account-left .user-info .btn-default {
+ padding: 10px 15px;
+ font-size: 13px;
+}
+ .arrow-ttle {
+margin-left: 5px;
+}
+ .artwrk-image {
+ height: 60px; /*can be anything*/
+ width: 60px;
+}
+ .myacnt-artist-info .media-left-box, .myacnt-artist-info .media-body-box {
+width:100%;
+}
+ .myacnt-artist-info .media-left-box {
+text-align:center;
+}
+ .myacnt-artist-info .media-left-box img {
+display:inline-block;
+}
+ .artworks-slider {
+margin: 20px auto 0px;
+}
+.title-info {
+  width: 100%;
+    text-align: center;
+}
+.title-info .fav-star-section {
+    float: none;
+    margin-top: 5px;
+    display: inline-block;
+}
+.slider-holder {
+    float: none;
+      margin: 0px auto;
+	  max-width:500px;
+}
+
+}
+ @media(max-width:680px) {
+.slider-holder {
+max-width:500px;
+}
+ .artwrk-image {
+ height: 60px; /*can be anything*/
+ width: 60px;
+}
+}
+ @media(max-width:500px) {
+	 .slider-holder {
+max-width:360px;
+}
+ }
+
+ @media(max-width:460px) {
+.slider-holder {
+max-width:280px;
+}
+ .artwrk-image {
+ height: 50px; /*can be anything*/
+ width: 50px;
+}
+ 
+}
+
+
+ @media(max-width:380px) {
+.slider-holder {
+max-width:200px;
+}
+ .artwrk-image {
+ height: 40px; /*can be anything*/
+ width: 40px;
+}
+ 
+}

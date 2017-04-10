@@ -1,0 +1,63 @@
+.my-account-page {
+	padding:0px;
+	margin-bottom:40px;
+	margin-top:20px;
+	font-family: 'catamaranregular'; 
+}
+.myaccount-title h1 {
+	font-size:28px;
+	padding:40px;
+	text-align:center;
+	text-transform:uppercase;
+	background:#f9f9f9;
+	font-family: 'lorabold';
+}
+.my-account-left {
+	float:left;
+	width:32%;
+	background:#f9f9f9;
+	min-height: 655px;
+}
+.my-account-right {
+	background:#f9f9f9;
+	float:right;
+	width:66.8%;	
+	margin-left:1.2%;
+	min-height: 655px;
+}
+.contant-section{padding:30px;}
+.my-account-left .user-info {
+	border-bottom:solid 3px #fff;
+	padding:40px;
+	background:#f9f9f9;
+	display:table;
+	width:100%;
+}
+.pagetitle{border-bottom: 2px solid #fff;text-transform: capitalize;font-size:20px;padding:25px 30px ; font-family: 'catamaranregular';}
+.my-account-left .user-info:after{clear:both;}
+.my-account-left .user-info  .name-details{ float:left; width:60%; color:#999;}
+.my-account-left .user-info .myacnt-user-name{ color:#333; font-family: 'catamaransemibold'; margin-top:5px; display:inline-block;}
+.my-account-left .user-info  .btn-box{ float:right; width:40%; }
+.my-account-left .user-info   .btn-default{background:#fdb140; padding:10px 20px; border:none; color:#fff; text-transform:uppercase;  text-shadow:none; width:100%; text-align:center;}
+.myaccount-left-menu {background:#f9f9f9;padding:40px;}
+.myaccount-left-menu ul{ padding:0px; margin:0px;}
+.myaccount-left-menu  li{ padding:0px; margin:0px; list-style:none;}
+.myaccount-left-menu  li a{ display:inline-block; color:#999999; padding:8px 0px;}
+.myaccount-left-menu  li a:hover{ text-decoration:none;color:#fdb140;}
+.myaccount-left-menu  li a.myacnt-active-link{ color:#fdb140;}
+.myaccount-left-menu h4{font-family: 'lorabold'; margin-top:15px; margin-bottom:8px; font-size:16px;}
+.myaccount-left-menu h4:first-child{ margin-top:0px;}
+
+@media(max-width:1026px){
+	.my-account-left .user-info   .btn-default{ padding:5px 15px; font-size:13px;}
+	.my-account-left .user-info ,.myaccount-left-menu{ padding:30px;}
+	.contant-section{padding:20px 25px;}
+	
+			
+	}
+
+@media(max-width:768px) {
+	.my-account-left, .my-account-right{ width:100%; min-height:auto;}
+	.my-account-right{ margin-left:0px; margin-top:20px; } 	
+	
+	}
